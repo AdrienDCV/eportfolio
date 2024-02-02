@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Menu from "../components/Menu";
 
 export default function Home() {
   return (
-    <main>
-      Hello World !
-    </main>
+    <header className="w-full">
+      <Menu />
+    </header>
   );
 }
