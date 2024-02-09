@@ -13,6 +13,7 @@ const nextConfig = {
 
     // Add basePath
     basePath: '/github-pages',
+    output: 'export'
 };
 
 export default nextConfig;
