@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import { VscClose } from "react-icons/vsc";
 
@@ -9,13 +9,13 @@ export default function Menu() {
     const [open, setOpen] = useState(true)
 
     const links = [
-        { id: 1, pageName: 'Acceuil', url: '/home' },
-        { id: 2, pageName: 'Présentation', url: '/presentation' },
-        { id: 3, pageName: 'Fromation', url: '/formation' },
-        { id: 4, pageName: 'Carrière', url: '/career' },
-        { id: 5, pageName: 'Compétences', url: '/skils' },
-        { id: 6, pageName: 'Réalisations', url: '/projects' },
-        { id: 7, pageName: 'Contact', url: '/contact' }
+        { id: 'home', pageName: 'Acceuil', url: '/home' },
+        { id: 'presentation', pageName: 'Présentation', url: '/presentation' },
+        { id: 'formation', pageName: 'Fromation', url: '/formation' },
+        { id: 'career', pageName: 'Carrière', url: '/career' },
+        { id: 'skills', pageName: 'Compétences', url: '/skils' },
+        { id: 'projects', pageName: 'Réalisations', url: '/projects' },
+        { id: 'contact', pageName: 'Contact', url: '/contact' }
     ]
 
     return (
