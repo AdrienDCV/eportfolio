@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { useState } from 'react';
 import { FiMenu } from 'react-icons/fi';
 import { VscClose } from "react-icons/vsc";
 
@@ -27,7 +28,7 @@ export default function Menu() {
                     { 
                         links.map( (link) => (
                             <li  key={ link.id } className='py-2 md:py-0 md:mr-6'>
-                                <a href={ link.url } className='link-underline'>{ link.pageName }</a>
+                                <Link href={ link.url } className='link-underline'>{ link.pageName }</Link>
                             </li>
                         )) 
                     }
