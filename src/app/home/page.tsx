@@ -5,8 +5,8 @@ export default function page () {
     return (
         <div className="flex flex-col justify-center items-center mt-10">
             <h1 className="text-gray font-bold text-4xl">Bienvenue !</h1>
-            <div className="flex flex-col md:flex-row md:p-10 justify-center items-center">
-                <Image src={'/images/photo_CV.png'} alt={"photo_CV_DACOSTAVEIGA_Adrien"} width={175} height={175} className="mt-5"/>
+            <div className="flex flex-col md:flex-row md:p-10 md:mt-10 justify-center items-center">
+                <Image src={'/images/photo_CV.png'} alt={"photo_CV_DACOSTAVEIGA_Adrien"} width={200} height={200} className="mt-5"/>
                 <div className="md:block hidden border-l-4 border-gray mt-5 w-4 h-[250px] ml-20"></div>
                 <div className="block md:hidden border-t-4 border-gray mt-5 w-[85%]"></div>
                 <p className="p-6 md:ml-20 md:w-[750px]">
