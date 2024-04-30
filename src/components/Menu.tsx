@@ -12,7 +12,7 @@ export default function Menu() {
     const links = [
         { id: 'home', pageName: 'Acceuil', url: '/home' },
         { id: 'presentation', pageName: 'Présentation', url: '/presentation' },
-        { id: 'formation', pageName: 'Fromation', url: '/formation' },
+        { id: 'formation', pageName: 'Formation', url: '/formation' },
         { id: 'career', pageName: 'Carrière', url: '/career' },
         { id: 'skills', pageName: 'Compétences', url: '/skils' },
         { id: 'projects', pageName: 'Réalisations', url: '/projects' },
