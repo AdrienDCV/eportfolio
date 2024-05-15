@@ -1,0 +1,72 @@
+6:I[9275,[],""]
+7:I[1343,[],""]
+8:I[3667,["217","static/chunks/578c2090-ff14e5b5f32dd393.js","956","static/chunks/ee560e2c-b704c69a05d5b0c5.js","853","static/chunks/853-0b58d965d836529d.js","185","static/chunks/app/layout-790ab85084261f36.js"],"default"]
+2:Tce1,
+                            Je m'appelle Adrien DA COSTA VEIGA, j'ai 20 ans et je suis originaire de l'Oise (60), en Picardie.
+
+                            Je suis actuellement en troisème année de Bachelor Universitaire de Technologie (BUT) Informatique, parcours Réalisation d'applications : conception, développement et validation
+                            à l'Institut Universitaire de Technologie de Lille, site de Villeneuve d'Ascq. 
+                            Je réalise cette dernière année de BUT Informatique en apprentissage au sein de l'entreprise Toyota Motor Manufacturing France à Onnaing, au poste 
+                            d'apprenti développeur full stack où je participe au développement, déploiement et à la maintenance d'applications visant à soutenir les opérateurs et opératrices sur la ligne de production.
+
+                            Je suis passionné par le monde de l'informatique depuis mes 12 ans. C'est à cet âge que j'ai obtenu mon tout premier ordinateur personnel. Au moment de la sélection des composants
+                            et du montage de cet ordinateur. Je me posais beaucoup de questions concernant le fonctionnement des composants. Comment est-ce que la carte mère fonctionne ? Comment est-ce que les
+                            informations sont-elles stockées dans le disque dur ? Comment est-ce que le système sait à quel endroit aller chercher telle ou telle information ?
+                            Telles étaient les questions qui m'ont poussé à m'intéresser à ce vaster domaine qu'est l'informatique.
+
+                            C'était décidé. Je souhaitais réaliser ma carrière professionnelle dans ce domaine. Je ferai de cette passion mon métier !
+                            Depuis lors, j'ambitionne de devenir Ingénieur Informatique.
+
+                            C'est pour cela que je suis très fier d'avoir la possibilité de poursuivre mes études au sein de 
+                            l'Institut National des Sciences Appliquées (INSA) Hauts-de-France en cursus Ingénieur spécialité Informatique en apprentissage pour une durée totale de 3 ans, soit 36 mois.
+
+                            On dit que "la curiosité est un vilain défaut". Cela est peut-être vrai, mais pour moi, il s'agit d'une grande qualité !
+                            De par ma curiosité et ma soiffe de savoir, j'en viens à m'intéresser à tout type de sujet. Sciences, technologies, littérature, culture et j'en passe.
+                            A cette curiosité s'ajoute une grande rigueur, appréciant que le travail soit fait et ce correctement. Une rigueur que je m'éforce d'appliquée également dans 
+                            ma façon de programmer, cherchant à toujours convenir au mieux aux conventions ainsi qu'à toujours chercher à optimiser au mieux l'écriture du code que je produis.  
+                            Je suis quelqu'un de persévérant, qui n'a pas peur de se remttre en question et qui cherche à s'améliorer en permanance.
+
+                            En dehors de l'informatique, j'éprouve un fort intérêt pour de nombreux autres domaines biens différents.
+
+                            Voici mes passions les plus importantes :
+                        3:T60a,
+                                    Depuis maintenant quelques années, je suis épris d'une forte passion pour le monde du sport automobile.
+                                    Cela a commencé en écoutant un ami qui parlait de Formule 1. Pris d'un élan de curiosité, je suis allé regarder
+                                    quelques vidéos sur ce sport qui, bien qu'en ayant déjà entendu parlé et regardé lorsque j'étais plus petit, ne
+                                    m'avait pourtant jamais vraiment intéressé. Je regarde donc une vidéo, deux vidéos, trois vidéos et je me retrouve
+                                    finalement à rapidement avoir parcouru l'histoire de la catégorie reine du sport automobile. De Fangio à Verstappen,
+                                    je suis tombé amoureux de ce domaine.
+
+                                    J'ai donc commencé à suivre assiduement la Formule 1, puis je me suis rapidement ouvert à d'autres disciplines
+                                    comme l'endurance (World Endurance Championship), la Formule 2 ou même le Rallye (World Rally Championship) où je supporte
+                                    respectivement Alpine, Art Grand Prix et Toyota GAZOO Racing en WEC et WRC.
+                                    Au-delà des moteurs qui font du bruit, l'aérodynamisme, l'ingénierie mécanique et
+                                    le contexte de recherche permetante d'innovation qui me passionne et fascine dans ce domaine. 
+                                4:T6e5,
+                                    L'Histoire, de la France et du monde, a toujours joué un rôle prépondérant dans ma vie. 
+                                    Depuis ma plus tendre enfance, jusqu'à aujourd'hui et pour bien des années encore. 
+                                    Plus le temps avance, plus nous en apprenons sur celui qui est passé. Savoir et comprendre 
+                                    le mode de vie de nos prédécesseurs m'a toujours fasciné, je ne peux m'empêcher d'imaginer l'ambiance 
+                                    qui régnait à telle ou telle époque, les difficultés par lesquelles les Poilus de 14-18 sont passés, 
+                                    la surprise générale de l'ancien monde lorsque Christophe Colomb fit connaître l'Amérique 
+                                    (et non découvrir, les Vikings ont déjà foulé le sol américain bien avant les Conquistadors), 
+                                    la constructions des pyramides, les premières civilisations humaines, les premiers pas de l'homme 
+                                    sur deux jambes et d'inombrables autres événements qui ont et continuent d'enrichir un des plus grands 
+                                    joyaux de l'humanité. Connaître son passé, ses merveilles mais également et peut-être surtout ses fautes 
+                                    permettent de mieux envisager son futur. Connaître l'Histoire, c'est aussi savoir que des erreurs ont 
+                                    été commises par le passé. Il est primordial de reconnaître l'existence de ces erreurs, afin d'en tirer des 
+                                    leçons pour qu'elles ne puissent se reproduire.
+                                5:T574,
+                                    Comme beaucoup de mes centres d'intérêts, c'est dans mon enfance (et presque depuis ma naissance) que je suis épris 
+                                    d'un fort intérêt pour l'aéronautique et l'aérospatial. Il s'agit d'une passion que je partage avec mon père 
+                                    (on pourrait dire que j'en ai certainement hérité), lui aussi grand amateur d'aviation. Je me souviens encore 
+                                    du petit Adrien en maternelle clamer haut et fort qu'il allait "travailler dans les tours de contrôle" 
+                                    (à l'époque je ne savais pas que le nom exact était "Aiguilleur du ciel"). En ce qui concerne l'aérospatial, 
+                                    j'ai toujours été intrigué par l'immensité et les mysètres que représente l'espace et l'univers dans 
+                                    lequel notre toute petite planète flotte élégamment. Encore aujourd'hui, je ne saurais expliquer comment est né 
+                                    cet intérêt pour ces oiseaux de fer et ces missiles habitables. 
+                                    Sûrement cette incontrolable envie pour l'homme de voler et se ressentir la liberté qu'est celle offerte aux 
+                                    volatiles qui peuplent le ciel.
+                                0:["GCxPzfPqjUOTHhCvR_FWd",[[["",{"children":["presentation",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",{"children":["presentation",{"children":["__PAGE__",{},[["$L1",[["$","h1",null,{"className":"text-gray font-bold text-4xl","children":"Présentation"}],["$","div",null,{"children":[["$","h2",null,{"className":"text-gray font-bold text-2xl","children":"Qui-suis je ?"}],["$","p",null,{"className":"whitespace-pre-line","children":"$2"}]]}],["$","div",null,{"children":[["$","div",null,{"children":[["$","h3",null,{"children":"Sport Automobile"}],["$","div",null,{"children":[["$","img",null,{"src":"","alt":""}],["$","p",null,{"className":"whitespace-pre-line","children":"$3"}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Histoire et culture du monde"}],["$","div",null,{"children":[["$","img",null,{"src":"","alt":""}],["$","p",null,{"className":"whitespace-pre-line","children":"$4"}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Aéronautique et aérospatial"}],["$","div",null,{"children":[["$","img",null,{"src":"","alt":""}],["$","p",null,{"className":"whitespace-pre-line","children":"$5"}]]}]]}]]}]]],null],null]},["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","presentation","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}],null]},[["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_c38613","children":[["$","$L8",null,{}],["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]]}]}],null],null],[[["$","link","0",{"rel":"stylesheet","href":"/adcv-eportfolio/_next/static/css/55fd0cb2970f22d3.css","precedence":"next","crossOrigin":"$undefined"}]],"$L9"]]]]
+9:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"ePortfolio - Adrien DA COSTA VEIGA"}],["$","meta","3",{"name":"description","content":"My ePortfolio"}],["$","link","4",{"rel":"icon","href":"/adcv-eportfolio/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+1:null
