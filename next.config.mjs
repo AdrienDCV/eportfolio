@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     basePath: '/adcv-eportfolio',
+    distDir: 'dist',
     output: 'export',
     reactStrictMode: true,
     async redirects() {
@@ -14,4 +15,3 @@ const nextConfig = {
       },
 };
 module.exports = nextConfig;
-export default nextConfig;
