@@ -1,0 +1,71 @@
+.project-thumbnail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: var(--padding-xxlarge) var(--padding-regular);
+    border: 1px solid var(--primary);
+    border-radius: var(--border-radius-small, 4px);
+  
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 50px;
+    }
+  
+    a {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      width: 300px;
+      height: 300px;
+  
+      &:hover {
+        .project-thumbnail__image {
+          img {
+            transform: scale(110%);
+          }
+        }
+      }
+  
+      .project-thumbnail__image {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-top-left-radius: var(--border-radius-small, 4px);
+        border-top-right-radius: var(--border-radius-small, 4px);
+  
+        img {
+          object-fit: cover;
+          height: 100%;
+          width: 100%;
+          transition: transform 0.2s ease-in-out;
+          margin-top: unset;
+        }
+      }
+  
+      .project-thumbnail__infos {
+        width: 100%;
+        margin: var(--padding-regular);
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        color: white;
+
+        span {
+          padding: 6px;
+        }
+
+      }
+
+      .project-thumbnail__technosTools {
+        margin: var(--padding-regular);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+  }
+  
