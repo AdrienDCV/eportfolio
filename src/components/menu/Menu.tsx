@@ -10,7 +10,7 @@ export default function Menu() {
     const [open, setOpen] = useState(true)
 
     const links = [
-        { id: 'home', pageName: 'Acceuil', url: '/home' },
+        { id: 'home', pageName: 'Acceuil', url: '/' },
         { id: 'presentation', pageName: 'Présentation', url: '/presentation' },
         { id: 'formation', pageName: 'Formation', url: '/formation' },
         { id: 'career', pageName: 'Carrière', url: '/career' },
