@@ -40,27 +40,27 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Next.js',
-                logo: <TbBrandNextjs width={ 50 } height={ 50 } title="Next.js"/>
+                logo: <TbBrandNextjs title="Next.js"/>
             },
             {
                 name: 'HTML',
-                logo: <FaHtml5 width={ 50 } height={ 50 } title="HTML"/>
+                logo: <FaHtml5 title="HTML"/>
             },
             {
                 name: 'TypeScript',
-                logo: <SiTypescript width={ 50 } height={ 50 } title="TypeScript"/>
+                logo: <SiTypescript title="TypeScript"/>
             },
             {
                 name: 'Tailwind CSS',
-                logo: <SiTailwindcss width={ 50 } height={ 50 } title="Tailwind CSS"/>
+                logo: <SiTailwindcss title="Tailwind CSS"/>
             },
             {
                 name: 'SASS',
-                logo: <SiSass width={ 50 } height={ 50 } title="SASS"/>
+                logo: <SiSass title="SASS"/>
             },
             {
                 name: 'Git',
-                logo: <FaGitAlt width={ 50 } height={ 50 } title="Git"/>
+                logo: <FaGitAlt title="Git"/>
             },
         ],
         skills: [
@@ -91,18 +91,18 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             },
             {
                 name: 'Spring Boot',
-                logo: <SiSpringboot width={ 50 } height={ 50 } title="Spring Boot"/>
+                logo: <SiSpringboot title="Spring Boot"/>
             },            {
                 name: 'Maven',
-                logo: <SiApachemaven width={ 50 } height={ 50 } title="Maven"/> 
+                logo: <SiApachemaven title="Maven"/> 
             },
             {
                 name: 'PostgreSQL',
-                logo: <SiPostgresql width={ 50 } height={ 50 } title="PostgreSQL"/>
+                logo: <SiPostgresql title="PostgreSQL"/>
             },
         ],
         skills: [
@@ -133,7 +133,7 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             }
         ],
         skills: [
@@ -160,7 +160,7 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             }
         ],
         skills: [
@@ -192,15 +192,15 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             },
             {
                 name: 'Java FX',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java FX"/>
+                logo: <FaJava title="Java FX"/>
             },
             {
                 name: 'Git',
-                logo: <FaGitAlt width={ 50 } height={ 50 } title="Git"/>
+                logo: <FaGitAlt title="Git"/>
             }
         ],
         skills: [
@@ -235,15 +235,15 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             },
             {
                 name: 'Java FX',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java FX"/>
+                logo: <FaJava title="Java FX"/>
             },            
             {
                 name: 'Git',
-                logo: <FaGitAlt width={ 50 } height={ 50 } title="Git"/>
+                logo: <FaGitAlt title="Git"/>
             }
         ],
         skills: [
@@ -278,11 +278,11 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'HTML',
-                logo: <FaHtml5 width={ 50 } height={ 50 } title="HTML"/>
+                logo: <FaHtml5 title="HTML"/>
             },
             {
                 name: 'CSS',
-                logo: <FaCss3 width={ 50 } height={ 50 } title="CSS"/>
+                logo: <FaCss3 title="CSS"/>
             }
         ],
         skills: [
@@ -313,11 +313,11 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Oracle VM VirtualBox',
-                logo: <SiVirtualbox width={ 50 } height={ 50 } title="Oravle VM VirtualBox"/>
+                logo: <SiVirtualbox title="Oravle VM VirtualBox"/>
             },
             {
                 name: 'Kubuntu',
-                logo: <SiKubuntu width={ 50 } height={ 50 } title="Kubuntu"/>
+                logo: <SiKubuntu title="Kubuntu"/>
             }
         ],
         skills: [
@@ -346,19 +346,19 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             },
             {
                 name: 'Git',
-                logo: <FaGitAlt width={ 50 } height={ 50 } title="Git"/>
+                logo: <FaGitAlt title="Git"/>
             },
             {
                 name: 'PostgreSQL',
-                logo: <SiPostgresql width={ 50 } height={ 50 } title="PostgreSQL"/>
+                logo: <SiPostgresql title="PostgreSQL"/>
             },            
             {
                 name: 'SQL',
-                logo: <TbSql width={ 50 } height={ 50 } title="SQL"/>
+                logo: <TbSql title="SQL"/>
             },
         ],
         skills: [
@@ -400,11 +400,11 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'PostgreSQL',
-                logo: <SiPostgresql width={ 50 } height={ 50 } title="PostgreSQL"/>
+                logo: <SiPostgresql title="PostgreSQL"/>
             },
             {
                 name: 'SQL',
-                logo: <TbSql width={ 50 } height={ 50 } title="SQL"/>
+                logo: <TbSql title="SQL"/>
             }
         ],
         skills: [
@@ -440,31 +440,31 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'HTML',
-                logo: <FaHtml5 width={ 50 } height={ 50 } title="HTML"/>
+                logo: <FaHtml5 title="HTML"/>
             },
             {
                 name: 'CSS',
-                logo: <FaCss3 width={ 50 } height={ 50 } title="CSS"/>
+                logo: <FaCss3 title="CSS"/>
             },
             {
                 name: 'JavaScript',
-                logo: <SiJavascript width={ 50 } height={ 50 } title="JavaScript"/>
+                logo: <SiJavascript title="JavaScript"/>
             },
             {
                 name: 'TypeScript',
-                logo: <SiTypescript width={ 50 } height={ 50 } title="TypeScript"/>
+                logo: <SiTypescript title="TypeScript"/>
             },
             {
                 name: 'Node.js',
-                logo: <FaNodeJs width={ 50 } height={ 50 } title="Node.js"/>
+                logo: <FaNodeJs title="Node.js"/>
             },
             {
                 name: 'Socket.io',
-                logo: <SiSocketdotio width={ 50 } height={ 50 } title="Socket.io"/>
+                logo: <SiSocketdotio title="Socket.io"/>
             },
             {
                 name: 'Git',
-                logo: <FaGitAlt width={ 50 } height={ 50 } title="Git"/>
+                logo: <FaGitAlt title="Git"/>
             },
         ],
         skills: [
@@ -499,19 +499,19 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'HTML',
-                logo: <FaHtml5 width={ 50 } height={ 50 } title="HTML"/>
+                logo: <FaHtml5 title="HTML"/>
             },
             {
                 name: 'CSS',
-                logo: <FaCss3 width={ 50 } height={ 50 } title="CSS"/>
+                logo: <FaCss3 title="CSS"/>
             },
             {
                 name: 'JavaScript',
-                logo: <SiJavascript width={ 50 } height={ 50 } title="JavaScript"/>
+                logo: <SiJavascript title="JavaScript"/>
             },
             {
                 name: 'Python',
-                logo: <SiPython width={ 50 } height={ 50 } title="Python"/>
+                logo: <SiPython title="Python"/>
             }
         ],
         skills: [
@@ -541,7 +541,7 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Python',
-                logo: <SiPython width={ 50 } height={ 50 } title="Python"/>
+                logo: <SiPython title="Python"/>
             }
         ],
         skills: [
@@ -571,7 +571,7 @@ export const schoolProjects: Project[] = [
         technosTools: [
             {
                 name: 'Python',
-                logo: <SiPython width={ 50 } height={ 50 } title="Python"/>
+                logo: <SiPython title="Python"/>
             }
         ],
         skills: [
@@ -601,15 +601,15 @@ export const personnalProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             },
             {
                 name: 'Maven',
-                logo: <SiApachemaven width={ 50 } height={ 50 } title="Maven"/>
+                logo: <SiApachemaven title="Maven"/>
             },
             {
                 name: 'JUnit5',
-                logo: <SiJunit5 width={ 50 } height={ 50 } title="JUnit5"/>
+                logo: <SiJunit5 title="JUnit5"/>
             }
         ],
         skills: [
@@ -634,15 +634,15 @@ export const personnalProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             },
             {
                 name: 'Maven',
-                logo: <SiApachemaven width={ 50 } height={ 50 } title="Maven"/>
+                logo: <SiApachemaven title="Maven"/>
             },
             {
                 name: 'JUnit5',
-                logo: <SiJunit5 width={ 50 } height={ 50 } title="JUnit5"/>
+                logo: <SiJunit5 title="JUnit5"/>
             }
         ],
         skills: [
@@ -671,35 +671,35 @@ export const personnalProjects: Project[] = [
         technosTools: [
             {
                 name: 'Java',
-                logo: <FaJava width={ 50 } height={ 50 } title="Java"/>
+                logo: <FaJava title="Java"/>
             },
             {
                 name: 'Spring Boot',
-                logo: <SiSpringboot width={ 50 } height={ 50 } title="Spring Boot"/>
+                logo: <SiSpringboot title="Spring Boot"/>
             },
             {
                 name: 'React',
-                logo: <SiReact width={ 50 } height={ 50 } title="React"/>
+                logo: <SiReact title="React"/>
             },
             {
                 name: 'TypeScript',
-                logo: <SiTypescript width={ 50 } height={ 50 } title="TypeScript"/>
+                logo: <SiTypescript title="TypeScript"/>
             },
             {
                 name: 'PostgreSQL',
-                logo: <SiPostgresql width={ 50 } height={ 50 } title="PostgreSQL"/>
+                logo: <SiPostgresql title="PostgreSQL"/>
             },
             {
                 name: 'Python',
-                logo: <SiPython width={ 50 } height={ 50 } title="Python"/>
+                logo: <SiPython title="Python"/>
             },
             {
                 name: 'Git',
-                logo: <FaGitAlt width={ 50 } height={ 50 } title="Git"/>
+                logo: <FaGitAlt title="Git"/>
             },
             {
                 name: 'Github Actions',
-                logo: <SiGithubactions width={ 50 } height={ 50 } title="Github Actions"/>
+                logo: <SiGithubactions title="Github Actions"/>
             }
         ],
         skills: [

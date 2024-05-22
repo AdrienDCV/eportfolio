@@ -2,6 +2,7 @@ import Link from "next/link";
 import TechnoTools from "../../data/TechnoTool";
 import Image from "next/image";
 import './ProjectThumbnailStyle.scss'
+import { IconContext } from "react-icons";
 
 type ProjectThumbnailProps = {
     title: string,
@@ -34,7 +35,11 @@ export default function ProjectThumbnail ({
                             {scholarYear !== null && <span>{ scholarYear }</span>}
                             <div className="project-thumbnail__technosTools">
                                 {technosTools?.map(technoTool => (
-                                    <span key={ technoTool.name }>{ technoTool.logo }</span>
+                                    <span key={ technoTool.name }>
+                                        <IconContext.Provider value={{ size: "20" }}>
+                                            { technoTool.logo }
+                                        </IconContext.Provider>
+                                    </span>
                                 ))}
                             </div>
                         </div> 

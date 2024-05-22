@@ -10,17 +10,17 @@ export default function Menu() {
     const [open, setOpen] = useState(true)
 
     const links = [
-        { id: 'home', pageName: 'Acceuil', url: '/' },
+        { id: 'home', pageName: 'Accueil', url: '/' },
         { id: 'presentation', pageName: 'Présentation', url: '/presentation' },
         { id: 'formation', pageName: 'Formation', url: '/formation' },
         { id: 'career', pageName: 'Carrière', url: '/career' },
-        { id: 'skills', pageName: 'Compétences', url: '/skils' },
+        { id: 'skills', pageName: 'Compétences', url: '/skills' },
         { id: 'projects', pageName: 'Réalisations', url: '/projects' },
         { id: 'contact', pageName: 'Contact', url: '/contact' }
     ]
 
     return (
-        <header className="bg-gray text-white font-bold">
+        <section className="bg-gray text-white font-bold sticky top-0">
             <nav className='flex justify-between p-6 md:text-xl'>
                 <VscClose className={`cursor text-2xl text-red z-10 md:hidden ${open ? 'sm:block' : 'hidden'}`} onClick={() => setOpen(!open)} />
                 <FiMenu className={`cursor text-xl z-10 md:hidden ${!open ? 'sm:block' : 'hidden'}`} onClick={() => setOpen(!open)} />
@@ -34,7 +34,7 @@ export default function Menu() {
                     }
                 </ul>
             </nav>
-        </header>
+        </section>
     );
 
 }
