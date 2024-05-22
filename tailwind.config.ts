@@ -4,12 +4,14 @@ const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx,html}",
     "./src/components/*.{js,ts,jsx,tsx,mdx,html}",
+    "./src/components/*/*.{js,ts,jsx,tsx,mdx,html}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx,html}",
   ],
   theme: {
     colors: {
       "gray": "rgb(49, 49, 49)",
       "white": "rgb(255 255 255)",
+      "black": "rgb(0 0 0)",
       "red": "rgb(220 38 38);"
 
     },

@@ -1,0 +1,80 @@
+.skills_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.skills {
+  padding: 6px;
+  margin: 10px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hard_skills_list, .soft_skills_list {
+  width: 400px;
+  height: 400px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.hard_skill {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 100%;
+  opacity: 33%;
+}
+
+.title { 
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  top: 75px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.hard_skill:hover .title {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hard_skill:hover .thumbnail {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .soft_skills_container {
+    margin-top: 50px;
+  }
+
+  .title {
+    position: block; 
+    text-align: center;
+    top: 75px;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
