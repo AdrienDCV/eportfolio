@@ -1,9 +1,9 @@
-import SkillList from "@/components/skills/SkillList";
+import Skills from "@/components/skills/Skills";
 
 export default function page () {
 
     return (
-        <SkillList />
+        <Skills />
     )
 
 }

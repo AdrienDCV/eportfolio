@@ -16,7 +16,7 @@
   justify-content: space-between;
 }
 
-.hard_skills_list, .soft_skills_list {
+.hard_skills_list {
   width: 400px;
   height: 400px;
   margin-top: 35px;
@@ -27,6 +27,18 @@
   align-items: center;
 }
 
+.soft_skills_list {
+  width: 400px;
+  height: 400px;
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
 .hard_skill {
   width: 100px;
   height: 100px;
@@ -34,6 +46,18 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.soft_skill {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .thumbnail {
@@ -60,6 +84,43 @@
   opacity: 1;
 }
 
+.languages_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6px;
+  margin: 10px;
+}
+
+
+.languages_list {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.language {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.language_img {
+  width: 75px;
+}
+
+.language_infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .skills {
     display: flex;
@@ -76,5 +137,14 @@
     top: 75px;
     visibility: hidden;
     opacity: 0;
+  }
+
+  .thumbnail {
+    opacity: 1
+  }
+
+  .languages_list {
+    display: flex;
+    flex-direction: column
   }
 }
