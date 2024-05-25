@@ -5,7 +5,8 @@ import ProjectThumbnail from "./ProjectThumbnail";
 import TechnoTools from "../../data/TechnoTool";
 import Title from "../title/Title";
 import './ProjectListStyle.scss';
-import SubTitle from "../title/SubTitle";
+import "../../app/globals.css";
+import SubTitle from "../title/Subtitle";
 
 type Project = {
     title: string,
@@ -28,12 +29,12 @@ export default function ProjectList () {
 	useEffect(() => setSchoolProjects(schoolProjects), []);
 	useEffect(() => setPersonnalProjects(personnalProjects), []);
 
+	const classNames = `${(schoolProjects?.length && personnalProjects?.length) ? 'projects-list-container' : 'is-loading'}`;
+
 	return (
 		<div className="projects">
-			<div className="projects__header">
-				<Title text="Réalisations" />
-			</div>
-			<div>
+			<Title text="Réalisations" />
+			<div className={classNames}>
 				<SubTitle text="Projets scolaires"/>
 				<div className="projects__list">
 					{schoolProjectsList?.map(({slug, title, thumbnail, scholarYear, technosTools}) => (

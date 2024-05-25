@@ -2,10 +2,10 @@
 
 import { useEffect, useState } from "react";
 import Title from "../title/Title";
-import { HardSkill, hardSkillsList } from "../../data/skills"
-import { IconContext } from "react-icons";
-import './SkillListStyle.scss';
-import SubTitle from "../title/SubTitle";
+import { HardSkill, hardSkillsList, softSkills } from "../../data/skills"
+import './SkillsStyle.scss';
+import languages from "../../data/languages"
+import SubTitle from "../title/Subtitle";
 
 export default function SkillList () {
     
@@ -14,7 +14,7 @@ export default function SkillList () {
 	useEffect(() => setHardSkills(hardSkillsList), []);
 
     return (
-        <div className=""> 
+        <div> 
             <Title text="Compétences" />
             <div className="skills_container">
                 <div className="skills">
@@ -38,9 +38,27 @@ export default function SkillList () {
                     <div className="soft_skills_container">
                         <SubTitle text="Soft skills"/>
                         <div className="soft_skills_list">
-                            TO DO
+                            {softSkills?.map(softSkill => (
+                                <div className="soft_skill"  key={ softSkill }>
+                                    { softSkill }
+                                </div>
+                            ))}
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="languages_container">
+                <SubTitle text="Langues" />
+                <div className="languages_list">
+                    {languages?.map(({ language, level, image }) => (
+                        <div key={language} className="language">
+                            <img src={image} alt={language} className="language_img"/>
+                            <div className="language_infos">
+                                <span>{ language }</span>
+                                <span>{ level }</span>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>

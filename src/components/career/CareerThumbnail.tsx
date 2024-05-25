@@ -1,5 +1,5 @@
 import SubSubTitle from "../../components/title/SubSubTitle";
-import SubTitle from "../../components/title/SubTitle";
+import SubTitle from "../title/Subtitle";
 import Title from "../../components/title/Title";
 
 type CareerThumbnailProps = {
