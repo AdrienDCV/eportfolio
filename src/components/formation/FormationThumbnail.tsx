@@ -1,6 +1,6 @@
 import Image from "next/image";
-import SubSubTitle from "../../components/title/SubSubTitle";
-import SubTitle from "../title/Subtitle";
+import SubSubTitle from "../title/Subsubtitle";
+import Subtitle from "../title/Subtitle";
 
 type FormationThumbnailProps = {
     name: string,
@@ -33,7 +33,7 @@ export default function FormationThumbnail ({
         <a href={'link'} onClick={handleClick}>
             <section className="infos">
                 <img src={thumbnail} width={125} height={125} alt={`${establishment.toLowerCase().replace(' ', '')}-logo`}/>
-                <SubTitle text={ name } />
+                <Subtitle text={ name } />
                 <SubSubTitle text={ speciality } />
                 <div className="flex flex-col ">
                     <span>{ date }</span>

@@ -1,5 +1,5 @@
-import SubSubTitle from "../../components/title/SubSubTitle";
-import SubTitle from "../title/Subtitle";
+import SubSubTitle from "../title/Subsubtitle";
+import Subtitle from "../title/Subtitle";
 import Title from "../../components/title/Title";
 
 type CareerThumbnailProps = {
@@ -27,7 +27,7 @@ export default function CareerThumbnail ({
     return (
         <div>
             <div>
-                <SubTitle text={`${type} - ${ title } `} />
+                <Subtitle text={`${type} - ${ title } `} />
                 <SubSubTitle text={ society } />
                 <SubSubTitle text={`${ date } - ${ duration }`} />
                 <SubSubTitle text={ place } />

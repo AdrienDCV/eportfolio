@@ -6,7 +6,7 @@ import TechnoTools from "../../data/TechnoTool";
 import Title from "../title/Title";
 import './ProjectListStyle.scss';
 import "../../app/globals.css";
-import SubTitle from "../title/Subtitle";
+import Subtitle from "../title/Subtitle";
 
 type Project = {
     title: string,
@@ -35,7 +35,7 @@ export default function ProjectList () {
 		<div className="projects">
 			<Title text="Réalisations" />
 			<div className={classNames}>
-				<SubTitle text="Projets scolaires"/>
+				<Subtitle text="Projets scolaires"/>
 				<div className="projects__list">
 					{schoolProjectsList?.map(({slug, title, thumbnail, scholarYear, technosTools}) => (
 						<div key={`scholar-project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
@@ -51,7 +51,7 @@ export default function ProjectList () {
 				</div>
 			</div>
 			<div>
-				<SubTitle text="Projets peronnels"/>
+				<Subtitle text="Projets peronnels"/>
 				<div className="projects__list">
 					{personnalProjectsList?.map(({slug, title, thumbnail, technosTools}) => (
 						<div key={`project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
