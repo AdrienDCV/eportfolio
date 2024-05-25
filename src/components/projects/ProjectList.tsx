@@ -6,7 +6,7 @@ import TechnoTools from "../../data/TechnoTool";
 import Title from "../title/Title";
 import './ProjectListStyle.scss';
 import "../../app/globals.css";
-import Subtitle from "../title/Subtitle";
+import Subtitle from "@/components/title/Subtitle";
 
 type Project = {
     title: string,
