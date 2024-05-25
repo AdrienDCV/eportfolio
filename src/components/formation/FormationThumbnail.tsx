@@ -1,5 +1,5 @@
-import SubSubTitle from "../title/Subsubtitle";
-import Subtitle from "@/components/title/Subtitle";
+import SubSubTitle from "../title/SubSubTitle";
+import SubTitle from "@/components/title/SubTitle";
 
 type FormationThumbnailProps = {
     name: string,
@@ -32,7 +32,7 @@ export default function FormationThumbnail ({
         <a href={'link'} onClick={handleClick}>
             <section className="infos">
                 <img src={thumbnail} width={125} height={125} alt={`${establishment.toLowerCase().replace(' ', '')}-logo`}/>
-                <Subtitle text={ name } />
+                <SubTitle text={ name } />
                 <SubSubTitle text={ speciality } />
                 <div className="flex flex-col ">
                     <span>{ date }</span>

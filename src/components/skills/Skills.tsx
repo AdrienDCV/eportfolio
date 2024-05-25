@@ -5,7 +5,7 @@ import Title from "../title/Title";
 import { HardSkill, hardSkillsList, softSkills } from "../../data/skills";
 import './SkillsStyle.scss';
 import languages from "../../data/languages";
-import Subtitle from "@/components/title/Subtitle";
+import SubTitle from "@/components/title/SubTitle";
 
 
 export default function SkillList () {
@@ -20,7 +20,7 @@ export default function SkillList () {
             <div className="skills_container">
                 <div className="skills">
                     <div className="hard_skills_container">
-                        <Subtitle text="Hard skills"/>
+                        <SubTitle text="Hard skills"/>
                         <div className="hard_skills_list">
                             {hardSkills?.map(({ name, logo }) => (
                                 <div className="hard_skill"  key={`hard-skill-${name.toLowerCase().replaceAll(' ', '-')}`}>
@@ -37,7 +37,7 @@ export default function SkillList () {
                     <div className="block md:hidden border-t-4 border-gray mt-5 w-[85%]"></div>
                     
                     <div className="soft_skills_container">
-                        <Subtitle text="Soft skills"/>
+                        <SubTitle text="Soft skills"/>
                         <div className="soft_skills_list">
                             {softSkills?.map(softSkill => (
                                 <div className="soft_skill"  key={ softSkill }>
@@ -49,7 +49,7 @@ export default function SkillList () {
                 </div>
             </div>
             <div className="languages_container">
-                <Subtitle text="Langues" />
+                <SubTitle text="Langues" />
                 <div className="languages_list">
                     {languages?.map(({ language, level, image }) => (
                         <div key={language} className="language">
