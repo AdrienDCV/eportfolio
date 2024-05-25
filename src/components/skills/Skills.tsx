@@ -2,10 +2,11 @@
 
 import { useEffect, useState } from "react";
 import Title from "../title/Title";
-import { HardSkill, hardSkillsList, softSkills } from "../../data/skills"
+import { HardSkill, hardSkillsList, softSkills } from "../../data/skills";
 import './SkillsStyle.scss';
-import languages from "../../data/languages"
-import Subtitle from "../title/Subtitle";
+import languages from "../../data/languages";
+import Subtitle from "@/components/title/Subtitle";
+
 
 export default function SkillList () {
     

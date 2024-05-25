@@ -1,6 +1,5 @@
 import Link from "next/link";
 import TechnoTools from "../../data/TechnoTool";
-import Image from "next/image";
 import './ProjectThumbnailStyle.scss'
 import { IconContext } from "react-icons";
 

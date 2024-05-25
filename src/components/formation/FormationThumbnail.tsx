@@ -1,6 +1,5 @@
-import Image from "next/image";
 import SubSubTitle from "../title/Subsubtitle";
-import Subtitle from "../title/Subtitle";
+import Subtitle from "@/components/title/Subtitle";
 
 type FormationThumbnailProps = {
     name: string,
