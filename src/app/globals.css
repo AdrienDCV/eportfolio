@@ -13,8 +13,6 @@ body {
 	position: relative;
 	z-index: -3;
     overflow: scroll;
-	max-width: 1920px;
-	min-width: 1080px;
 }
 
 

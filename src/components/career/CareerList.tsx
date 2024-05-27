@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import data from "../../data/career"
 import Title from "../title/Title"
 import CareerThumbnail from "./CareerThumbnail"
+import "./CareerListStyle.scss"
 
 type Career = {
     title: string,
@@ -26,7 +27,7 @@ export default function CareerList () {
             <header>
                 <Title text="Expériences professionnelles" />
             </header>
-            <div>
+            <div className="career-list">
                 {career.map(({ title, type, society, date, duration, place, descirption, logo }) => (
                     <CareerThumbnail
                         key={title.toLowerCase().replaceAll(' ', '-')} 

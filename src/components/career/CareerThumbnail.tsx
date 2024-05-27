@@ -1,5 +1,6 @@
 import SubSubTitle from "@/components/title/SubSubTitle"
 import SubTitle from "@/components/title/SubTitle"
+import "./CareerThumbnailStyle.scss"
 
 type CareerThumbnailProps = {
     title: string,
@@ -24,16 +25,16 @@ export default function CareerThumbnail ({
 }: Readonly<CareerThumbnailProps>) {
 
     return (
-        <div>
+        <div className="career-infos">
+            <div>
+                <img src={ logo } alt={`${society.replaceAll(' ', '-').toLocaleLowerCase()}-logo`} />
+            </div>
             <div>
                 <SubTitle text={`${type} - ${ title } `} />
                 <SubSubTitle text={ society } />
                 <SubSubTitle text={`${ date } - ${ duration }`} />
                 <SubSubTitle text={ place } />
                 <p>{ descirption }</p>
-            </div>
-            <div>
-                <img src={ logo } alt={`${society.replaceAll(' ', '-').toLocaleLowerCase()}-logo`} />
             </div>
         </div>
     )
