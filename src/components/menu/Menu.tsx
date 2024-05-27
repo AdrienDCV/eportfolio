@@ -20,7 +20,7 @@ export default function Menu() {
     ]
 
     return (
-        <section className="bg-gray text-white font-bold sticky top-0">
+        <section className="bg-gray text-white font-bold sticky top-0 z-10">
             <nav className='flex justify-between p-6 md:text-xl'>
                 <VscClose className={`cursor text-2xl text-red z-10 md:hidden ${open ? 'sm:block' : 'hidden'}`} onClick={() => setOpen(!open)} />
                 <FiMenu className={`cursor text-xl z-10 md:hidden ${!open ? 'sm:block' : 'hidden'}`} onClick={() => setOpen(!open)} />

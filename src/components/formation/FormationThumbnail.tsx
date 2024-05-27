@@ -25,13 +25,9 @@ export default function FormationThumbnail ({
     thumbnail
 }: Readonly<FormationThumbnailProps>) {
 
-    function handleClick() {
-        return;
-    }
-
     return (
         <div className="formation">
-            <a href={'link'} onClick={handleClick}>
+            <div>
                 <section className="infos">
                     <img src={thumbnail} alt={`${establishment.toLowerCase().replace(' ', '')}-logo`}/>
                     <SubTitle text={ name } />
@@ -43,7 +39,7 @@ export default function FormationThumbnail ({
                         <span>{ country }</span>
                     </div>
                 </section>
-            </a>
+            </div>
         </div>
 
     )
