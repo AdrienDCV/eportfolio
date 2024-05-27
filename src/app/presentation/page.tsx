@@ -1,4 +1,4 @@
-export default function Presentation () {
+export default function page () {
 
     return (
         <>
