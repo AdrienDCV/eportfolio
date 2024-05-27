@@ -7,6 +7,7 @@ const career = [
         duration: '1 an',
         place: 'Onnaing, Nord (59), France',
         descirption: 'Développement, déploiement et maintenance d\'applications web en support à la production',
+        technos: 'Java, Spring Boot, Vue.js, SQL, Git, IntelliJ, VS Code, Github, Github Actions, MSSQL',
         logo: 'https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1052284/logo.png?1510043350'
     },
     {
@@ -17,6 +18,7 @@ const career = [
         duration: '10 semaines',
         place: 'Onnaing, Nord (59), France',
         descirption: 'Développement, déploiement et maintenance d\'applications web en support à la production',
+        technos: 'Java, Spring Boot, Vue.js, SQL, Git, IntelliJ, VS Code, Bitbucket, Bamboo, MSSQL',
         logo: 'https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1052284/logo.png?1510043350'
     }
 ]

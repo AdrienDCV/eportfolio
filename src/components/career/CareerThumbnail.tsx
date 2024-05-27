@@ -10,6 +10,7 @@ type CareerThumbnailProps = {
     duration: string,
     place: string,
     descirption: string,
+    technos: string,
     logo: string
 }
 
@@ -21,6 +22,7 @@ export default function CareerThumbnail ({
     duration,
     place,
     descirption,
+    technos,
     logo
 }: Readonly<CareerThumbnailProps>) {
 
@@ -29,12 +31,13 @@ export default function CareerThumbnail ({
             <div>
                 <img src={ logo } alt={`${society.replaceAll(' ', '-').toLocaleLowerCase()}-logo`} />
             </div>
-            <div>
+            <div className="flex flex-col">
                 <SubTitle text={`${type} - ${ title } `} />
                 <SubSubTitle text={ society } />
                 <SubSubTitle text={`${ date } - ${ duration }`} />
                 <SubSubTitle text={ place } />
-                <p>{ descirption }</p>
+                <span>{ descirption }</span>
+                <span>{ technos }</span>
             </div>
         </div>
     )
