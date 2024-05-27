@@ -7,13 +7,14 @@
 	margin: 0px;
 	padding: 0px;
 }
-html, body, main {
-	margin: 0;
-	padding: 0;
+html {
+	overflow: scroll;
+}
+html, main {
+	margin: 0px;
+	padding: 0px;
 	position: relative;
 	height: 100%;
-	z-index: -3;
-    overflow: scroll;
 }
 
 
