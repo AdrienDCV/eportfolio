@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function page () {
    
     return (
-        <div className="flex flex-col justify-center items-center mt-10">
+        <div className="flex flex-col justify-center items-center mt-10 h-[100vh]">
             <h1 className="text-gray font-bold text-4xl">Bienvenue !</h1>
             <div className="flex flex-col md:flex-row md:p-10 md:mt-10 justify-center items-center">
                 <Image src="/public/images/pptmmfadrien.png" alt={"photo_CV_DACOSTAVEIGA_Adrien"} width={200} height={200} className="mt-5"/>

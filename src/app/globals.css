@@ -9,12 +9,11 @@
 }
 html {
 	overflow: scroll;
+	height: 100vh;
 }
-html, main {
+body, main {
 	margin: 0px;
 	padding: 0px;
-	position: relative;
-	height: 100%;
 }
 
 

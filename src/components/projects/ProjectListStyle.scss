@@ -1,15 +1,19 @@
 .projects {
+  margin: var(--padding-xxxlarge);
+}
 
-  .projects__list__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.projects__list__container {
+  overflow: scroll;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .projects__list {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-  }
+.projects__list {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: var(--padding-xxxlarge);
 }
