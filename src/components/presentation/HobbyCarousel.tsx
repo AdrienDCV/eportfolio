@@ -42,20 +42,36 @@ export default function HobbyCarousel () {
     return (
         <div className="container">
             <div onClick={handleClickPreviousHobbyButton} className="previous-hobby-button">
-                <FiChevronLeft fontSize={100}/>
+                <FiChevronLeft fontSize={100} className="previous-button"/>
             </div>
-            <div className="hobby-carousel">
+            <div className="carousel-container">
+                <div className="hobby-carousel">
                     <SubTitle text={ currentHobby?.title } />
                     <div key='' className="hobby-infos">
-                        <Image src={`${  currentHobby?.thumbnail }`} alt={`${ currentHobby?.title }`} width={200} height={200}/>
-                        <p className="whitespace-pre-line items-centersh-[500px]">
+                        <img src={`${  currentHobby?.thumbnail }`} alt={`${ currentHobby?.title }`} />
+                        <p className="whitespace-pre-line items-centers">
                             { currentHobby?.content }
                         </p>
                     </div>
+                </div>
+                <span className="nb-hobby">
+                    { currentHobbyIdx + 1 } / { hobbies?.length }
+                </span>
             </div>
             <div onClick={handleClickNextHobbyButton} className="next-hobby-button">
-                <FiChevronRight fontSize={100}/>
+                <FiChevronRight fontSize={100} className="next-button"/>
             </div>
+            <div className="carousel-buttons sm:hidden">
+                <div onClick={handleClickPreviousHobbyButton} className="small-previous-button">
+                    <FiChevronLeft fontSize={100} />
+                </div>
+                <div onClick={handleClickNextHobbyButton} className="small-next-button">
+                    <FiChevronRight fontSize={100} />
+                </div>
+            </div>
+            <span className="md:hidden">
+                { currentHobbyIdx + 1 } / { hobbies?.length }
+            </span>
         </div>
     )
 
