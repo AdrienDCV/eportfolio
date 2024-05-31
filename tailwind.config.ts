@@ -10,6 +10,7 @@ const config: Config = {
   theme: {
     colors: {
       "gray": "rgb(49, 49, 49)",
+      "light-gray": "rgba(157, 157, 157, 0.227)",
       "white": "rgb(255 255 255)",
       "black": "rgb(0 0 0)",
       "red": "rgb(220 38 38);"
