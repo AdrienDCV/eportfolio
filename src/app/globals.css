@@ -6,25 +6,23 @@
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
 }
 html {
-	overflow: scroll;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 }
 body, main {
 	margin: 0px;
 	padding: 0px;
+	height: 100%;
+	overflow: scroll;
 }
 
 *::-webkit-scrollbar {
 	display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  * {
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
-  }
+}
 
 .link-underline {
     border-bottom-width: 0;

@@ -33,8 +33,8 @@ export default function SkillList () {
                         </div>
                     </div>
 
-                    <div className="md:block hidden border-l-4 border-gray mt-5 w-4 h-[250px]"></div>
-                    <div className="block md:hidden border-t-4 border-gray mt-5 w-[85%]"></div>
+                    <div className="md:block hidden border-l-4 border-gray mt-5 w-4 h-[300px]"></div>
+                    <div className="block md:hidden border-t-4 border-gray mt-5 w-[95%]"></div>
                     
                     <div className="soft_skills_container">
                         <SubTitle text="Soft skills"/>
