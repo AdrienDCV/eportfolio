@@ -17,7 +17,7 @@ const hobbies = [
     },
     {
         title: 'Histoire et culture du monde',
-        thumbnail: 'https://www.larousse.fr/encyclopedie/data/images/1007785-H%C3%A9rodote.jpg',
+        thumbnail: 'https://medias.histoire-et-civilisations.com/api/v1/images/view/61aa6f4e3e45463e1547fcf7/width_1000/image.jpg',
         content: ` L'Histoire, de la France et du monde, a toujours joué un rôle prépondérant dans ma vie. 
         Depuis ma plus tendre enfance, jusqu'à aujourd'hui et pour bien des années encore. 
         Plus le temps avance, plus nous en apprenons sur celui qui est passé. Savoir et comprendre 

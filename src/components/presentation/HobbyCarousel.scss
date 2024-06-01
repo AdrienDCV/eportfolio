@@ -3,7 +3,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    gap: 100px;
 }
 
 .carousel-container {
@@ -26,10 +25,21 @@
     justify-content: space-between;
 }
 
+
+@media (min-width: 769px) {
+
+    .description {
+        padding: 10px;
+        margin-left: 75px;
+        white-space: pre-line;
+    }
+
+}
+
 @media (max-width: 769px) {
 
     .previous-button, .next-button {
-        visibility: hidden;
+        display: none;
     } 
 
     .container {
@@ -48,6 +58,13 @@
         align-items: center;
     }
 
+    .description {
+        margin-top: 10px;
+        height: 250px;
+        white-space: pre-line;
+        overflow: scroll;
+    }
+
     .carousel-buttons {
         display: flex;
         flex-direction: row;
@@ -55,6 +72,6 @@
     }
 
     .nb-hobby {
-        visibility: hidden;
+        display: none;
     }
 }

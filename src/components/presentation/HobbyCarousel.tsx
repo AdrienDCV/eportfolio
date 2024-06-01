@@ -49,7 +49,7 @@ export default function HobbyCarousel () {
                     <SubTitle text={ currentHobby?.title } />
                     <div key='' className="hobby-infos">
                         <Image src={`${  currentHobby?.thumbnail }`} alt={`${ currentHobby?.title }`} width={ 400 } height={ 400 } className="hobby-image"/>
-                        <p className="p-[10px] ml-[75px] whitespace-pre-line items-centers">
+                        <p className="description">
                             { currentHobby?.content }
                         </p>
                     </div>
@@ -63,10 +63,10 @@ export default function HobbyCarousel () {
             </div>
             <div className="carousel-buttons sm:hidden">
                 <div onClick={handleClickPreviousHobbyButton} className="small-previous-button">
-                    <FiChevronLeft fontSize={100} />
+                    <FiChevronLeft fontSize={50} />
                 </div>
                 <div onClick={handleClickNextHobbyButton} className="small-next-button">
-                    <FiChevronRight fontSize={100} />
+                    <FiChevronRight fontSize={50} />
                 </div>
             </div>
             <span className="md:hidden">
