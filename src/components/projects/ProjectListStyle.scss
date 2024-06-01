@@ -2,11 +2,12 @@
   margin: var(--padding-xxxlarge);
 }
 
-.projects__list__container {
-  overflow: scroll;
-  height: 100px;
+.projects-list-container {
+  margin-top: 50px;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 

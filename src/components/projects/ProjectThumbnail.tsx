@@ -2,6 +2,7 @@ import Link from "next/link";
 import TechnoTools from "../../data/TechnoTool";
 import './ProjectThumbnailStyle.scss'
 import { IconContext } from "react-icons";
+import Image from "next/image";
 
 type ProjectThumbnailProps = {
     title: string,
@@ -24,9 +25,11 @@ export default function ProjectThumbnail ({
                 <div className="project-thumbnail">
                     <Link href={`/projects/${ slug}`}>
                         <div className="project-thumbnail__image">
-                            <img
+                            <Image
                                 src={ thumbnail }
                                 alt={ title }
+                                width={ 50 }
+                                height={ 50 }
                             />
                         </div>
                         <div className="project-thumbnail__infos">

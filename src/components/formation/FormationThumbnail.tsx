@@ -1,6 +1,7 @@
 import SubSubTitle from "../title/SubSubTitle";
 import SubTitle from "@/components/title/SubTitle";
 import './FormationThumbnailStyle.scss';
+import Image from "next/image";
 
 type FormationThumbnailProps = {
     name: string,
@@ -29,7 +30,7 @@ export default function FormationThumbnail ({
         <div className="formation">
             <div>
                 <section className="infos">
-                    <img src={thumbnail} alt={`${establishment.toLowerCase().replace(' ', '')}-logo`}/>
+                    <Image src={thumbnail} alt={`${establishment}-logo`} width={ 50 } height={ 50 }/>
                     <SubTitle text={ name } />
                     <SubSubTitle text={ speciality } />
                     <div className="flex flex-col ">
