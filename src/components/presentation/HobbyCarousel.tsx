@@ -48,8 +48,8 @@ export default function HobbyCarousel () {
                 <div className="hobby-carousel">
                     <SubTitle text={ currentHobby?.title } />
                     <div key='' className="hobby-infos">
-                        <img src={`${  currentHobby?.thumbnail }`} alt={`${ currentHobby?.title }`} />
-                        <p className="whitespace-pre-line items-centers">
+                        <Image src={`${  currentHobby?.thumbnail }`} alt={`${ currentHobby?.title }`} width={ 400 } height={ 400 } className="hobby-image"/>
+                        <p className="p-[10px] ml-[75px] whitespace-pre-line items-centers">
                             { currentHobby?.content }
                         </p>
                     </div>

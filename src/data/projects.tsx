@@ -26,7 +26,7 @@ export const schoolProjects: Project[] = [
             'Développement d\'application',
             'Développement d\'application web frontend',
         ],
-        thumbnail: '/images/eportfolio.png',
+        thumbnail: 'images/eportfolio.png',
         scholarYear: 'BUT Informatique - Semestre 6',
         description: 'Développement d\'un e-portfolio en utilisant le framework de développement front Next.js' +
         'Le choix de ce framework s\'explique par la vonlonté d\'utiliser un framework front pouvant générer du contenu' +
@@ -78,7 +78,7 @@ export const schoolProjects: Project[] = [
             'Développement d\'application web',
             'Développement d\'application web backend',
         ],
-        thumbnail: '/images/logo_IUT_Lille.svg',
+        thumbnail: 'images/logo_IUT_Lille.svg',
         scholarYear: 'BUT Informatique - Semestre 6',
         description: 'Dans le cadre d\'une semaine dédiée à la réalisation d\'un projet dans un environnement Agile et méthode Scrum. ' +
         'Nous avons eu à travailler auprès de porteurs de projets de manière concrèete en vue de leur proposer une ' +
@@ -125,7 +125,7 @@ export const schoolProjects: Project[] = [
         tags: [
             'Développement d\'application'
         ],
-        thumbnail: '/images/enigma.png',
+        thumbnail: 'images/enigma.png',
         scholarYear: 'BUT Informatique - Semestre 1',
         description: 'Implémentation d\'un algorithme de décryptage d\'un message chiffré à l\'aide de la fameuse machine de chiffrement allemande, Enigma, surtout utilisée par les armées allemandes durant la Seconde Guerre Mondiale.',
         team: '2 personnes',
@@ -148,7 +148,7 @@ export const schoolProjects: Project[] = [
         tags: [
             'Développement d\'application'
         ],
-        thumbnail: '/images/succes-key.png',
+        thumbnail: 'images/successkey.png',
         scholarYear: 'BUT Informatique - Semestre 1',
         description: 'Développement d\'un logiciel ludo-pédagogique visant à être utilisé par des élèves de primaires.' +
         'Nous avons décidé de réaliser un simple quizz de culture générale.' +
@@ -178,7 +178,7 @@ export const schoolProjects: Project[] = [
         tags: [
             'Développement d\'application'
         ],
-        thumbnail: '/images/classification.png',
+        thumbnail: 'images/classification.png',
         scholarYear: 'BUT Informatique - Semestre 3',
         description: 'Réalisation d\'une application Java avec interface graphique visant à classifier des jeux de données' +
         '(Pokémon / variétés d\'Iris / passagers du Titanic) basée sur l\'algorithme des k plus proches voisins (kNN).' +
@@ -222,7 +222,7 @@ export const schoolProjects: Project[] = [
         tags: [
             'Développement d\'application'
         ],
-        thumbnail: '/images/affectation-tutorat.png',
+        thumbnail: 'images/affectationtutorat.png',
         scholarYear: 'BUT Informatique - Semestre 2',
         description: 'Application Java avec interface graphique visant à réaliser des affectations à coût minimal entre deux étudiants' +
         '(1ère année avec 2 ou 3ème année) dans le cadre d\'un système de tutorat. Nous avons utilisé pour cela le problème du plus court chemin,' +
@@ -263,7 +263,7 @@ export const schoolProjects: Project[] = [
             'Développement d\'application',
             'Dévelopement web'
         ],
-        thumbnail: '/images/illustart.png',
+        thumbnail: 'images/illustart.png',
         scholarYear: 'BUT Informatique - Semestre 1',
         description: 'Développement d\'un site vitre pour une startup fictive créée dans le cadre du scénario du projet' + 
         'Nous sommes partis sur une startup proposant des services dans l\'art numérique, Illustrat. Pour la création de ce site vitrine,' + 
@@ -298,7 +298,7 @@ export const schoolProjects: Project[] = [
         tags: [
             'Système'
         ],
-        thumbnail: '/images/vm-kubuntu.png',
+        thumbnail: 'images/kubuntu.png',
         scholarYear: 'BUT Informatique - Semestre 1',
         description: 'Scénario : Une petite startup, composée d\'un chef d\'entreprise et d\'un développeur,' +
         'fait appel à nos services afin de mettre en place un poste de développement sous la distribution UNIX.' + 
@@ -333,7 +333,7 @@ export const schoolProjects: Project[] = [
             'Développement d\'application',
             'Développement backend'
         ],
-        thumbnail: '/images/api-rest-pizzeria.png',
+        thumbnail: 'images/apirestpizzeria.png',
         scholarYear: 'BUT Informatique - Semestre 4',
         description: 'Développement d\'une API REST pour une pizzeria fictive permettant de créer et commander des pizzas en fonction des spécifications données par le client.',
         team: '2 personnes',
@@ -384,7 +384,7 @@ export const schoolProjects: Project[] = [
             'Analyse de données',
             'Etude statistique'
         ],
-        thumbnail: '/images/exploitation-donnees-parcoursup.png',
+        thumbnail: 'images/parcoursupbdd.png',
         scholarYear: 'BUT Informatique - Semestre 2',
         description: 'A partir des données issues de la plateforme Parcoursup, plateforme visant à orienter' +
         'les élèves de Terminale vers différentes filières d\'études supérieures (CPGE / IUT / École d\'ingénieurs / BTS / ...)' +
@@ -426,7 +426,7 @@ export const schoolProjects: Project[] = [
             'Développement d\'application',
             'Développement d\'application web'
         ],
-        thumbnail: '/images/agario.png',
+        thumbnail: 'images/agario.png',
         scholarYear: 'BUT Informatique - Semestre 4',
         description: 'Reproduction du fameux jeu vidéo sur navigateur Agar.io en JavaScript / TypeScript (vanilla)' +
         'reprenant les principales mécaniques de ce dernier : se déplacer en fonction de la position du curser de la souris,' +
@@ -488,7 +488,7 @@ export const schoolProjects: Project[] = [
             'Développement d\'application',
             'Développement d\'application web'
         ],
-        thumbnail: '/images/jeu-pendu.png',
+        thumbnail: 'images/jeupenduweb.png',
         scholarYear: 'Lycée - Première',
         description: 'Jeu du pendu réalisé en application Python ainsi qu\'en application web (HTML / CSS et JavaScript).',
         team: '3 personnes',
@@ -531,7 +531,7 @@ export const schoolProjects: Project[] = [
         tags: [
             'Développement d\'application',
         ],
-        thumbnail: '/images/tetris.png',
+        thumbnail: 'images/tetris.png',
         scholarYear: 'Lycée - Terminale',
         description: 'Application Python, reproduction du célèbre jeu vidéo Tetris.',
         team: '3 personnes',
@@ -561,7 +561,7 @@ export const schoolProjects: Project[] = [
         tags: [
             'Développement d\'application',
         ],
-        thumbnail: '/images/logo_IUT_Lille.svg',
+        thumbnail: 'images/logo_IUT_Lille.svg',
         scholarYear: 'Lycée - Terminale',
         description: 'Application Python, reproduction du célèbre jeu vidéo Pac-man.',
         team: '3 personnes',
@@ -594,7 +594,7 @@ export const personnalProjects: Project[] = [
         tags: [
             'Algorithmie'
         ],
-        thumbnail: '',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png',
         description: 'Reproduction de commandes UNIX en Java.' +
             'Ce projet vise à me faire travailler mes compétences en algorithmie en ' +
             'appliquant le TDD (Test Driven Development)',
@@ -627,7 +627,7 @@ export const personnalProjects: Project[] = [
         tags: [
             'Algorithmie'
         ],
-        thumbnail: '',
+        thumbnail: 'https://avatars.githubusercontent.com/u/5624255?s=200&v=4',
         description: 'Reproduction d\'exercices de programmation en Java issu du site ' +
             'Exercism en appliquant le TDD (Test Driven Development). Ce projet me permet de travailler mes compétences ' +
             'en algorithmie',
@@ -663,7 +663,7 @@ export const personnalProjects: Project[] = [
             'Développement web backend',
             'Gestion de données',
         ],
-        thumbnail: '',
+        thumbnail: 'https://play-lh.googleusercontent.com/fbrWR4LbtB_1Ulgz3_rw8bY3tx_zPU7A9ZOB5WYG_QmqOUUjA6JEzE_20GA4YBDWMx4',
         description: 'Projet visant à développer un bot pour un serveur Discord sur le thème de la Formule 1 ' +
             'ainsi que d\'une platerforme web visant à configurer le bot ainsi que de réaliser des analyses et visualisations ' +
             'de données issues des télémétries et statistiques des pilotes et écuries. Projet réalisé dans un environnement Agile et la méthode Scrum ' +

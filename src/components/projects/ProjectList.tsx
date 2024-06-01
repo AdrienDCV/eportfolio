@@ -29,12 +29,10 @@ export default function ProjectList () {
 	useEffect(() => setSchoolProjects(schoolProjects), []);
 	useEffect(() => setPersonnalProjects(personnalProjects), []);
 
-	const classNames = `${(schoolProjects?.length && personnalProjects?.length) ? 'projects-list-container' : 'is-loading'}`;
-
 	return (
 		<div className="projects">
 			<Title text="Réalisations" />
-			<div className={classNames}>
+			<div className="projects-list-container">
 				<SubTitle text="Projets scolaires"/>
 				<div className="projects__list">
 					{schoolProjectsList?.map(({slug, title, thumbnail, scholarYear, technosTools}) => (
@@ -50,7 +48,7 @@ export default function ProjectList () {
 					))}
 				</div>
 			</div>
-			<div>
+			<div className="projects-list-container">
 				<SubTitle text="Projets peronnels"/>
 				<div className="projects__list">
 					{personnalProjectsList?.map(({slug, title, thumbnail, technosTools}) => (

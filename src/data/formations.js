@@ -1,5 +1,15 @@
 const formations = [
     {
+        name: 'Cursus Ingénieur',
+        speciality: 'Spécialité Informatique - Apprentissage',
+        date: '2024 - fin estimée pour 2027',
+        establishment: 'INSA Hauts-de-France',
+        city: 'Valenciennes (59313)',
+        department: 'Nord (59)',
+        country: 'France',
+        thumbnail: 'https://upload.wikimedia.org/wikipedia/fr/7/72/2560px-Insa-hautsdefrance-logo.png'
+    },
+    {
         name: 'Bachelor Universitaire de Technologie - Informatique',
         speciality: 'Parcours Réalisation d\'applications: conception, développement, déploiement',
         date: '2021 - En cours (fin estimée pour 2024)',
@@ -17,7 +27,7 @@ const formations = [
         city: 'Compiègne (60200)',
         department: 'Oise (60)',
         country: 'France',
-        thumbnail: 'https://scontent-cdg4-2.xx.fbcdn.net/v/t39.30808-6/303917825_526129649468560_6268515545805526339_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=uCdBPiXBze0Q7kNvgEYzt5K&_nc_ht=scontent-cdg4-2.xx&oh=00_AYAD5Frnp-vVA2DQqYHljAnkg_ko3e1opOhccQp2C_9Hsg&oe=665A7B6A'
+        thumbnail: 'https://www.lycee-mireille-grenet.fr/wp-content/themes/wplms-child/images/logo.png'
     },
 ]
 export default formations
