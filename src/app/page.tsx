@@ -4,8 +4,12 @@ import Title from "@/components/title/Title";
 
 export default function page () {
    
+    const getAge = () => {
+        return new Date('200305-25')
+    }
+
     return (
-        <div className="flex flex-col justify-center items-center mt-10 h-[100vh]">
+        <div>
             <Title text="Bienvenue !" />
             <div className="flex flex-col md:flex-row md:p-10 md:mt-10 justify-center items-center">
                 <Image
@@ -19,7 +23,7 @@ export default function page () {
                 <p className="p-6 md:ml-20 md:w-[750px]">
                     Enchanté,
                     <br />  
-                    Je me nomme <span className='font-bold'>Adrien DACOSTA VEIGA</span>, 20 ans.<br />
+                    Je me nomme <span className='font-bold'>Adrien DA COSTA VEIGA</span>, 21 ans.<br />
                     <br />
                     <span className="font-bold">Passionné</span> depuis maintenant quelques années par <span className="font-bold">le monde de l’informatique</span>,
                     j’ai décidé de <span className="font-bold">faire de cette passion mon métier</span>.<br />
@@ -36,7 +40,7 @@ export default function page () {
                     les <a href="/eportfolio/projects" className="hover:underline"><span className="font-bold">projets réalisés</span></a> dans le cadre de mes études et/ou personnels et 
                     mon <a href="/eportfolio/formation" className="hover:underline"><span className="font-bold">parcours professionnel</span></a>.<br />
                     <br />
-                    Je vous remercie pour l’attention accordée et le temps dédié à la lecture de ces articles !
+                    Je vous remercie pour l’attention et le temps accordés à la lecture de ces articles !
                 </p>
             </div>
         </div>

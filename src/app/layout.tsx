@@ -15,7 +15,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <header>
             <Menu />
         </header>

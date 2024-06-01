@@ -11,14 +11,13 @@
   width: 1000px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .hard_skills_list {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   margin-top: 35px;
   display: flex;
   flex-direction: row;
@@ -28,8 +27,8 @@
 }
 
 .soft_skills_list {
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   margin-top: 35px;
   display: flex;
   flex-direction: row;
@@ -61,7 +60,6 @@
 }
 
 .thumbnail {
-  width: 100%;
   opacity: 33%;
 }
 
