@@ -1,8 +1,4 @@
 import TechnoTools from "@/data/TechnoTool"
-import { FaJava, FaHtml5, FaCss3, FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs, TbSql } from "react-icons/tb";
-import { SiPostgresql, SiApachemaven, SiSpringboot, SiTypescript, SiTailwindcss, SiVirtualbox, SiKubuntu, SiJavascript, SiSocketdotio, SiPython, SiJunit5, SiReact, SiGithubactions, SiSass } from "react-icons/si";
-import { FaGitAlt } from "react-icons/fa6";
 
 type Project = {
     title: string,
@@ -28,7 +24,7 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/eportfolio.png',
         scholarYear: 'BUT Informatique - Semestre 6',
-        description: 'Développement d\'un e-portfolio en utilisant le framework de développement front Next.js' +
+        description: 'Développement d\'un e-portfolio en utilisant le framework de développement frontend Next.js. ' +
         'Le choix de ce framework s\'explique par la vonlonté d\'utiliser un framework front pouvant générer du contenu ' +
         'statique côté serveur (Server Side Rendering)',
         team: '1 personnes',
