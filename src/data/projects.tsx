@@ -162,7 +162,7 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/successkey.png',
         scholarYear: 'BUT Informatique - Semestre 1',
-        description: 'Développement d\'un logiciel ludo-pédagogique visant à être utilisé par des élèves de primaires.' +
+        description: 'Développement d\'un logiciel ludo-pédagogique visant à être utilisé par des élèves de primaires. ' +
         'Nous avons décidé de réaliser un simple quizz de culture générale.' +
         'Scénario : Vous jouez un enfant enfermé dans sa chambre par ses parents pour cause de mauvaises notes et ' +
         'afin de réviser vos prochaines évaluations. Vos parents vous ont laissé un jeu de clés mais parmi ' +
