@@ -27,7 +27,7 @@ export default function FormationList () {
     return (
         <div>
             <header>
-                <Title text="Formations" />
+                <Title text="Formation" />
             </header>
             <div className="formations-list">
                 {formations.map(({ name, speciality, date, establishment, city, department, country, thumbnail }) => (

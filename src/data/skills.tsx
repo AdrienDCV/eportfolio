@@ -111,7 +111,7 @@ export const hardSkillsList: HardSkill[] = [
 
 export const softSkills = [
     "Persévérance",
-    "Refléxion analytique et logique",
+    "Réflexion analytique et logique",
     "Curiosité",
     "Rigueur",
     "Faculté d'apprentissage",
