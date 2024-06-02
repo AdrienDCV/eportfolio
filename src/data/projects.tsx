@@ -1,4 +1,6 @@
 import TechnoTools from "@/data/TechnoTool"
+import { SiApachemaven, SiKubuntu, SiSocketdotio, SiJunit5, SiGithubactions } from "react-icons/si"
+import { TbSql } from "react-icons/tb"
 
 type Project = {
     title: string,
