@@ -29,7 +29,7 @@ export const schoolProjects: Project[] = [
         thumbnail: 'images/eportfolio.png',
         scholarYear: 'BUT Informatique - Semestre 6',
         description: 'Développement d\'un e-portfolio en utilisant le framework de développement front Next.js' +
-        'Le choix de ce framework s\'explique par la vonlonté d\'utiliser un framework front pouvant générer du contenu' +
+        'Le choix de ce framework s\'explique par la vonlonté d\'utiliser un framework front pouvant générer du contenu ' +
         'statique côté serveur (Server Side Rendering)',
         team: '1 personnes',
         participation: [
@@ -168,8 +168,8 @@ export const schoolProjects: Project[] = [
         scholarYear: 'BUT Informatique - Semestre 1',
         description: 'Développement d\'un logiciel ludo-pédagogique visant à être utilisé par des élèves de primaires.' +
         'Nous avons décidé de réaliser un simple quizz de culture générale.' +
-        'Scénario : Vous jouez un enfant enfermé dans sa chambre par ses parents pour cause de mauvaises notes et' +
-        'afin de réviser vos prochaines évaluations. Vos parents vous ont laissé un jeu de clés mais parmi' +
+        'Scénario : Vous jouez un enfant enfermé dans sa chambre par ses parents pour cause de mauvaises notes et ' +
+        'afin de réviser vos prochaines évaluations. Vos parents vous ont laissé un jeu de clés mais parmi ' +
         'ces dernières, une seule ouvre la porte de la chambre. Répondez juste à une question, et vous aurez le droit d\'essayer l\'une de ces clefs.',
         team: '2 personnes',
         participation: ['Développement du logiciel'],
@@ -196,9 +196,9 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/classification.png',
         scholarYear: 'BUT Informatique - Semestre 3',
-        description: 'Réalisation d\'une application Java avec interface graphique visant à classifier des jeux de données' +
-        '(Pokémon / variétés d\'Iris / passagers du Titanic) basée sur l\'algorithme des k plus proches voisins (kNN).' +
-        'Pour réaliser cette application, nous avons eu à analyser les besoins clients et cahier des charges afin de déterminer' +
+        description: 'Réalisation d\'une application Java avec interface graphique visant à classifier des jeux de données ' +
+        '(Pokémon / variétés d\'Iris / passagers du Titanic) basée sur l\'algorithme des k plus proches voisins (kNN). ' +
+        'Pour réaliser cette application, nous avons eu à analyser les besoins clients et cahier des charges afin de déterminer ' +
         'la structure de l\'application par la réalisation de fiches et d\'un diagramme de cas d\'utilisations et d\'un diagramme de classes (UML).',
         team: '4 personnes',
         participation: [
@@ -242,8 +242,8 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/affectationtutorat.png',
         scholarYear: 'BUT Informatique - Semestre 2',
-        description: 'Application Java avec interface graphique visant à réaliser des affectations à coût minimal entre deux étudiants' +
-        '(1ère année avec 2 ou 3ème année) dans le cadre d\'un système de tutorat. Nous avons utilisé pour cela le problème du plus court chemin,' +
+        description: 'Application Java avec interface graphique visant à réaliser des affectations à coût minimal entre deux étudiants ' +
+        '(1ère année avec 2 ou 3ème année) dans le cadre d\'un système de tutorat. Nous avons utilisé pour cela le problème du plus court chemin, ' +
         'et donc utilisé l\'algorithme de Dijkstra afin de résoudre la problématique de l\'affectation à coût minimal.',
         team: '2 personnes',
         participation: [
@@ -285,9 +285,9 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/illustart.png',
         scholarYear: 'BUT Informatique - Semestre 1',
-        description: 'Développement d\'un site vitre pour une startup fictive créée dans le cadre du scénario du projet' + 
-        'Nous sommes partis sur une startup proposant des services dans l\'art numérique, Illustrat. Pour la création de ce site vitrine,' + 
-        'nous avons eu à choisir une charte graphique ainsi qu\'un design pour les différentes pages du site. Pour des raisons de simplicité,' + 
+        description: 'Développement d\'un site vitre pour une startup fictive créée dans le cadre du scénario du projet ' + 
+        'Nous sommes partis sur une startup proposant des services dans l\'art numérique, Illustrat. Pour la création de ce site vitrine, ' + 
+        'nous avons eu à choisir une charte graphique ainsi qu\'un design pour les différentes pages du site. Pour des raisons de simplicité, ' + 
         'certaines illustrations ont été réalisées par moi même.',
         team: '2 personnes',
         participation: [
@@ -324,11 +324,11 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/kubuntu.png',
         scholarYear: 'BUT Informatique - Semestre 1',
-        description: 'Scénario : Une petite startup, composée d\'un chef d\'entreprise et d\'un développeur,' +
-        'fait appel à nos services afin de mettre en place un poste de développement sous la distribution UNIX.' + 
-        'L\'objectif était donc d\'installer et configurer une machine sous une distribution UNIX afin qu\'elle puisse être utilisée' +
-        'à la fois par le chef d\'entreprise (débutant en informatique) et le développeur (expert). Nous avons choisi la distribution' +
-        'Kubuntu qui offre une interface graphique proche de celle de Windows. Nous avons également dû installer des logiciels et applications' + 
+        description: 'Scénario : Une petite startup, composée d\'un chef d\'entreprise et d\'un développeur, ' +
+        'fait appel à nos services afin de mettre en place un poste de développement sous la distribution UNIX. ' + 
+        'L\'objectif était donc d\'installer et configurer une machine sous une distribution UNIX afin qu\'elle puisse être utilisée ' +
+        'à la fois par le chef d\'entreprise (débutant en informatique) et le développeur (expert). Nous avons choisi la distribution ' +
+        'Kubuntu qui offre une interface graphique proche de celle de Windows. Nous avons également dû installer des logiciels et applications ' + 
         'tels que : Visual Studio Code / Firefox / Mozilla Thunderbird / LibreOffice et autres.',
         team: '2 personnes',
         participation: [
@@ -417,10 +417,10 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/parcoursupbdd.png',
         scholarYear: 'BUT Informatique - Semestre 2',
-        description: 'A partir des données issues de la plateforme Parcoursup, plateforme visant à orienter' +
-        'les élèves de Terminale vers différentes filières d\'études supérieures (CPGE / IUT / École d\'ingénieurs / BTS / ...)' +
-        'fournies par le Ministère de l\'éducation nationale et des sports. Après avoir reparti les données contenu dans un fichier .CSV,' +
-        'nous avons exploité la BDD créée afin de réaliser des analyses statistiques comme par exemple le pourcentage de filles admises en' +
+        description: 'A partir des données issues de la plateforme Parcoursup, plateforme visant à orienter ' +
+        'les élèves de Terminale vers différentes filières d\'études supérieures (CPGE / IUT / École d\'ingénieurs / BTS / ...) ' +
+        'fournies par le Ministère de l\'éducation nationale et des sports. Après avoir reparti les données contenu dans un fichier .CSV, ' +
+        'nous avons exploité la BDD créée afin de réaliser des analyses statistiques comme par exemple le pourcentage de filles admises en ' +
         'BUT Informatique, la proportion de candidats boursiers dans des filières sélectives.',
         team: '2 personnes',
         participation: [
@@ -461,8 +461,8 @@ export const schoolProjects: Project[] = [
         ],
         thumbnail: 'images/agario.png',
         scholarYear: 'BUT Informatique - Semestre 4',
-        description: 'Reproduction du fameux jeu vidéo sur navigateur Agar.io en JavaScript / TypeScript (vanilla)' +
-        'reprenant les principales mécaniques de ce dernier : se déplacer en fonction de la position du curser de la souris,' +
+        description: 'Reproduction du fameux jeu vidéo sur navigateur Agar.io en JavaScript / TypeScript (vanilla) ' +
+        'reprenant les principales mécaniques de ce dernier : se déplacer en fonction de la position du curser de la souris, ' +
         'manger des points de nourriture, manger d\'autres joueurs plus petit que soi ou se faire manger par plus grand.',
         team: '2 personnes',
         participation: [
