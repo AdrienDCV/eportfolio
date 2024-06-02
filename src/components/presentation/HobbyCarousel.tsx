@@ -22,7 +22,7 @@ export default function HobbyCarousel () {
     useEffect(() => {
         setHobbies(hobbiesList)
         setCurrentHobby(hobbies[currentHobbyIdx])
-    })
+    }, [])
 
     function handleClickPreviousHobbyButton() {
         if (currentHobbyIdx === 0) {

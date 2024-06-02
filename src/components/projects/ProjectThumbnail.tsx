@@ -7,45 +7,55 @@ import Image from "next/image";
 type ProjectThumbnailProps = {
     title: string,
     slug: string,
+    description: string,
     thumbnail: string,
     scholarYear?: string,
     technosTools: TechnoTools[],
+    skills: string[] | undefined
 }
 
 export default function ProjectThumbnail ({
     title,
     slug,
+    description,
     thumbnail,
     scholarYear,
     technosTools,
+    skills
 }: Readonly<ProjectThumbnailProps>) {
 
     return (
-            <div className="project-thumbnail__container">
+            <div className="project-thumbnail-container">
                 <div className="project-thumbnail">
-                    <Link href={`/projects/${ slug}`}>
-                        <div className="project-thumbnail__image">
-                            <Image
-                                src={ thumbnail }
-                                alt={ title }
-                                width={ 50 }
-                                height={ 50 }
-                            />
+                    <div className="project-thumbnail-image">
+                        <Image
+                            src={ thumbnail }
+                            alt={ title }
+                            width={ 200 }
+                            height={ 200 }
+                            className="project-image"
+                        />
+                    </div>
+                    <div className="project-infos">
+                        <span className="font-bold">{ title }</span>
+                        {scholarYear !== null && <span>{ scholarYear }</span>}
+                        <p className="project-description">{ description }</p>
+                        <div className="project-technostools-list">
+                            {technosTools?.map(technoTool => (
+                                <span key={ technoTool.name } className="project-technostools">
+                                    { technoTool.logo }
+                                </span>
+                            ))}
                         </div>
-                        <div className="project-thumbnail__infos">
-                            <span>{ title }</span>
-                            {scholarYear !== null && <span>{ scholarYear }</span>}
-                            <div className="project-thumbnail__technosTools">
-                                {technosTools?.map(technoTool => (
-                                    <span key={ technoTool.name }>
-                                        <IconContext.Provider value={{ size: "20" }}>
-                                            { technoTool.logo }
-                                        </IconContext.Provider>
-                                    </span>
+                        <div className="project-skills">
+                            <span>Compétences développées:</span>
+                            <ul className="ml-[20px]">
+                                {skills?.map(skill => (
+                                    <li key={ skill }>{ skill }</li>
                                 ))}
-                            </div>
-                        </div> 
-                    </Link>
+                            </ul>
+                        </div>
+                    </div> 
                 </div>
             </div>
 
