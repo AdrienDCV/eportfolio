@@ -28,13 +28,15 @@ export default function ProjectThumbnail ({
             <div className="project-thumbnail-container">
                 <div className="project-thumbnail">
                     <div className="project-thumbnail-image">
-                        <Image
-                            src={ thumbnail }
-                            alt={ title }
-                            width={ 200 }
-                            height={ 200 }
-                            className="project-image"
-                        />
+                        <a href="">
+                            <Image
+                                src={ thumbnail }
+                                alt={ title }
+                                width={ 200 }
+                                height={ 200 }
+                                className="project-image"
+                            />
+                        </a>
                     </div>
                     <div className="project-infos">
                         <span className="font-bold">{ title }</span>
