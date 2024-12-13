@@ -14,7 +14,6 @@ type Project = {
     tags: string[],
     thumbnail: string,
     scholarYear: string,
-    description: string,
     team: string,
     participation: string[],
     technosTools: TechnoTools[],
@@ -35,16 +34,13 @@ export default function ProjectList () {
 			<div className="projects-list-container">
 				<SubTitle text="Projets scolaires"/>
 				<div className="projects-list">
-					{schoolProjectsList?.map(({ slug, title, thumbnail, scholarYear, description, technosTools, skills }) => (
+					{schoolProjectsList?.map(({ slug, title, thumbnail, scholarYear, technosTools, skills }) => (
 						<div key={`scholar-project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
 							<ProjectThumbnail
-										slug={slug}
 										title={title}
 										thumbnail={thumbnail}
 										scholarYear={scholarYear}
-										description={description}
 										technosTools={technosTools}
-										skills={skills}
 							/>
 						</div>
 					))}
@@ -53,15 +49,12 @@ export default function ProjectList () {
 			<div className="projects-list-container">
 				<SubTitle text="Projets peronnels"/>
 				<div className="projects-list">
-					{personnalProjectsList?.map(({slug, title, thumbnail, description, technosTools}) => (
+					{personnalProjectsList?.map(({slug, title, thumbnail, technosTools}) => (
 						<div key={`project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
 							<ProjectThumbnail
-								slug={slug}
 								title={title}
 								thumbnail={thumbnail}
-								description={description}
-								technosTools={technosTools} 
-								skills={undefined}							
+								technosTools={technosTools}
 							/>
 						</div>
 					))}

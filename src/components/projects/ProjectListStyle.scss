@@ -7,8 +7,19 @@
 
 .projects-list {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-  width: 60%;
-  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  
 }

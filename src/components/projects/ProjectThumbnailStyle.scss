@@ -1,40 +1,110 @@
-.project-thumbnail-container {
+.project-thumbnail {
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.3s ease;
+  overflow: hidden;
 }
 
-.project-thumbnail {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 80%;
-}
-
-.project-image {
-  transform: scale(110%);
-}
-
-.project-technostools-list {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.project-technostools {
-  margin-left: 10px;
+.project-thumbnail:hover {
+  transform: translateY(-10px);
 }
 
 .project-infos {
-  margin-left: 25px;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  width: 80%;
-  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  width: 100%;
+  height: 100%;
 }
 
-.project-skills > ul {
-  list-style: inside;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.project-infos:hover {
+  background: rgba(0, 0, 0, 0.447);
+}
+
+.project-thumbnail:hover .project-infos {
+  opacity: 1;
+}
+
+.project-thumbnail-image {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.project-thumbnail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #f0f0f0;
+}
+
+.project-title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.project-year {
+  text-align: center;
+}
+
+.project-technostools-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .project-thumbnail {
+    width: 350px;
+    height: auto;
+  }
+
+  .project-thumbnail-image {
+    height: 180px;
+  }
+
+  .project-infos {
+    position: static;
+    opacity: 1;
+    padding: 10px;
+    color: black;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+    margin-top: 8px;
+  }
+
+  .project-technostools-list {
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+  }
+
+  .project-description {
+    padding: 10px;
+  }
 }

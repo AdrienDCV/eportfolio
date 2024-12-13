@@ -7,7 +7,7 @@ import { VscClose } from "react-icons/vsc";
 
 export default function Menu() {
 
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
 
     const links = [
         { id: 'home', pageName: 'Accueil', url: '/' },

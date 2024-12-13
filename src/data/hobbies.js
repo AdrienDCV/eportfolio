@@ -21,7 +21,7 @@ const hobbies = [
         comprendre le mode de vie de nos prédécesseurs m'a toujours fasciné, je ne peux m'empêcher d'imaginer l'ambiance 
         qui régnait à telle ou telle époque, les difficultés par lesquelles les Poilus de 14-18 sont passés, 
         la surprise générale de l'ancien monde lorsque Christophe Colomb fit connaître l'Amérique 
-        (et non découvrir, les Vikings ont déjà foulé le sol américain bien avant les Conquistadors), 
+        (et non découvrir ! Les Vikings ont déjà foulé le sol américain bien avant les Conquistadors), 
         la construction des pyramides, les premières civilisations humaines, les premiers pas de l'homme 
         sur deux jambes et d'innombrable autres événements qui ont et continuent d'enrichir un des plus grands 
         joyaux de l'humanité. Connaître son passé, ses merveilles mais également ses fautes permettent de mieux envisager 

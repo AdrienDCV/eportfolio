@@ -13,7 +13,6 @@ type Career = {
     duration: string,
     place: string,
     descirption: string,
-    technos: string,
     logo: string
 }
 
@@ -29,7 +28,7 @@ export default function CareerList () {
                 <Title text="Expériences professionnelles" />
             </header>
             <div className="career-list">
-                {career.map(({ title, type, society, date, duration, place, descirption, technos, logo }) => (
+                {career.map(({ title, type, society, date, duration, place, descirption, logo }) => (
                     <CareerThumbnail
                         key={title.toLowerCase().replaceAll(' ', '-')} 
                         title={title}
@@ -39,7 +38,6 @@ export default function CareerList () {
                         duration={duration}
                         place={place}
                         descirption={descirption}
-                        technos={technos}
                         logo={logo}
                     />
                 ))}

@@ -29,10 +29,9 @@ export default function page () {
                     j’ai décidé de <span className="font-bold">faire de cette passion mon métier</span>.<br />
                     <br />
                     C’est dans cette optique que j’ai entrepris un <span className="font-bold">Bachelor Universitaire de Technologie (BUT) en Informatique</span> à
-                    l’Institut Universitaire de Technologie de Lille site de Villeneuve d’Ascq.<br />
-                    Actuellement en <span className="font-bold">troisième année parcours réalisation d’applications : conception, développement,
-                    validation</span> que je réalise en <span className="font-bold">alternance</span> au sein de l’entreprise <a href="https://www.toyota.fr/production-valenciennes" className="hover:underline"><span className="font-bold">Toyota Motor Manufacturing France</span></a> 
-                    au poste <span className="font-bold">d’apprenti développeur full stack</span>.<br />
+                    l’Institut Universitaire de Technologie de Lille site de Villeneuve d’Ascq et que je poursuis mes études en ingénierie informatique.<br />
+                    Actuellement en <span className="font-bold">troisième année de cycle ingénieur informatique sous statut apprenti</span> que je réalise en <span className="font-bold">alternance</span> 
+                    au sein de l’entreprise <a href="https://www.jetdev.fr/" className="hover:underline"><span className="font-bold">Jetdev</span></a> au poste <span className="font-bold">d’apprenti développeur full stack & mobile</span>.<br />
                     <br />
 
                     Sur ce site, vous trouverez une <a href="/eportfolio/presentation" className="hover:underline"><span className="font-bold">présentation</span></a> plus détaillée afin de mieux apprendre à
