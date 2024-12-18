@@ -33,7 +33,7 @@ export default function ProjectList () {
 			<Title text="Réalisations" />
 			<div className="projects-list-container">
 				<SubTitle text="Projets scolaires"/>
-				<div className="projects-list">
+				<div className="projects-list mt-7">
 					{schoolProjectsList?.map(({ slug, title, thumbnail, scholarYear, technosTools, skills }) => (
 						<div key={`scholar-project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
 							<ProjectThumbnail
@@ -48,7 +48,7 @@ export default function ProjectList () {
 			</div>
 			<div className="projects-list-container">
 				<SubTitle text="Projets peronnels"/>
-				<div className="projects-list">
+				<div className="projects-list mt-7">
 					{personnalProjectsList?.map(({slug, title, thumbnail, technosTools}) => (
 						<div key={`project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
 							<ProjectThumbnail
