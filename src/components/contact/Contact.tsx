@@ -25,15 +25,15 @@ export default function Contact () {
 			<div className="flex flex-col items-center mt-20">
                 <SubTitle text="Vous pouvez me contacter via le formulaire ci-dessous !" />
                 <form className="flex flex-col items-center mt-10" onSubmit={handleSubmit} method="POST">
-                    <label className="form-label">
+                    <label className="form-label shadow-lg shadow-light-gray">
                         <SubSubTitle text={"Objet"}/>
                         <input className="object" type="text" name="subject" ref={subjectInput} />
                     </label>
-                    <label>
+                    <label className='form-label shadow-lg shadow-light-gray'>
                         <SubSubTitle text={"Votre message"}/>
                         <textarea className="message" name="body" rows={10} ref={bodyInput}></textarea>
                     </label>
-                    <button className="mt-10 p-6 text-gray bg-gray bg-opacity-30 rounded-md hover:bg-opacity-75 hover:text-white" type="submit">Envoyer</button>
+                    <button className="mt-10 p-3 text-gray bg-white rounded-md hover:bg-gray hover:text-white shadow-md shadow-light-gray" type="submit">Envoyer</button>
                 </form>
                <div className="flex flex-row gap-5">
                 <div className="mt-10 flex flex-col items-center">

@@ -6,7 +6,7 @@ const languages = [
     },
     {
         language: 'Anglais',
-        level: 'B2 (TOEIC: 925 / 990)',
+        level: 'B2',
         image: 'https://img.icons8.com/?size=100&id=15534&format=png&color=000000'
     },
     {

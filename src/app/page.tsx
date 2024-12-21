@@ -9,14 +9,15 @@ export default function page () {
     }
 
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center'>
             <Title text="Bienvenue !" />
-            <div className="flex flex-col md:flex-row md:p-10 md:mt-10 justify-center items-center">
+            <div className="max-w-[1200px] w-[350px] flex flex-col lg:w-full lg:flex-row ustify-center items-center bg-white rounded-lg rounded-lg mt-10 p-10 shadow-lg shadow-light-gray">
                 <Image
                     src={ photo }
                     alt={ 'photo' }
-                    width={ 300 }
-                    height={ 300 }
+                    width={ 150 }
+                    height={ 150 }
+                    className='lg:w-[250px] lg:h-[250px] mt-10 rounded-lg shadow-lg shadow-light-gray'
                 />
                 <div className="md:block hidden border-l-4 border-gray mt-5 w-4 h-[250px] ml-20"></div>
                 <div className="block md:hidden border-t-4 border-gray mt-5 w-[85%]"></div>

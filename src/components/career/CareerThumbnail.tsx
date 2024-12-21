@@ -1,6 +1,4 @@
-import SubSubTitle from "@/components/title/SubSubTitle"
-import SubTitle from "@/components/title/SubTitle"
-import "./CareerThumbnailStyle.scss"
+import Card from "@/components/card/Card";
 
 type CareerThumbnailProps = {
     title: string,
@@ -9,7 +7,7 @@ type CareerThumbnailProps = {
     date: string,
     duration: string,
     place: string,
-    descirption: string,
+    description: string ,
     logo: string
 }
 
@@ -18,25 +16,21 @@ export default function CareerThumbnail ({
     type,
     society,
     date,
-    duration,
     place,
-    descirption,
+    description,
     logo
 }: Readonly<CareerThumbnailProps>) {
 
     return (
-        <div className="career-infos">
-            <div>
-                <img src={ logo } alt={`${society.replaceAll(' ', '-').toLocaleLowerCase()}-logo`} width={100} height={100}/>
-            </div>
-            <div className="career-infos-description flex flex-col w-[500px]">
-                <SubTitle text={`${type} - ${ title } `} />
-                <SubSubTitle text={ society } />
-                <SubSubTitle text={`${ date } - ${ duration }`} />
-                <SubSubTitle text={ place } />
-                <span>{ descirption }</span>
-            </div>
-        </div>
+        <Card
+            title={ title }
+            type={ type }
+            establishment={ society }
+            date={ date }
+            place={ place }
+            description={ description }
+            image={ logo }
+        />
     )
 
 }

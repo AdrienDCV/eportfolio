@@ -26,7 +26,9 @@ npm run dev
 Par défaut, le projet se lance sur `localhost:300`.  
 
 En vous rendant à cette adresse, vous allez avoir une erreur 404. Il suffira de cliquer
-sur le lien `Accueil` pour profiter pleinnement de l'application.
+sur le lien `Accueil` pour profiter pleinnement de l'application. 
+Découvrant NextJS avec ce projet, je n'ai pas encore pris le temps de m'intéressé de manière plus rigoureuse
+à la configuration.
 
 Ce projet est déployé à l'aide du service `Github Pages` et est accessible depuis cette url :
 https://adriendcv.github.io/eportfolio

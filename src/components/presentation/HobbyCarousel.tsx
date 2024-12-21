@@ -1,10 +1,9 @@
 'use client'
 
 import { useEffect, useState } from "react"
-import SubTitle from "../title/SubTitle"
+import SubSubTitle from "../title/SubSubTitle"
 import hobbiesList from "@/data/hobbies"
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi"
-import './HobbyCarousel.scss'
 import Image from "next/image"
 
 type Hobby = {
@@ -26,7 +25,7 @@ export default function HobbyCarousel () {
 
     function handleClickPreviousHobbyButton() {
         if (currentHobbyIdx === 0) {
-            setCurrentHobbyIdx(currentHobbyIdx +( hobbies.length - 1))
+            setCurrentHobbyIdx(currentHobbyIdx + (hobbies.length - 1))
         } else {
             setCurrentHobbyIdx(currentHobbyIdx - 1)
         }
@@ -40,38 +39,37 @@ export default function HobbyCarousel () {
     }
 
     return (
-        <div className="container">
-            <div onClick={handleClickPreviousHobbyButton} className="previous-hobby-button">
-                <FiChevronLeft fontSize={100} className="previous-button"/>
+        <div className="max-w-[1200px] w-[350px] lg:w-full flex flex-row justify-center items-center">
+            <div onClick={handleClickPreviousHobbyButton} className="lg:block hidden">
+                <FiChevronLeft fontSize={75} />
             </div>
-            <div className="carousel-container">
-                <div className="hobby-carousel">
-                    <SubTitle text={ currentHobby?.title } />
-                    <div key='' className="hobby-infos">
-                        <Image src={`${  currentHobby?.thumbnail }`} alt={`${ currentHobby?.title }`} width={ 400 } height={ 400 } className="hobby-image"/>
-                        <p className="description">
-                            { currentHobby?.content }
-                        </p>
+            <div className='w-full lg:h-[400px] flex flex-col justify-center items-center bg-white border-none rounded-lg shadow-lg shadow-light-gray'>
+                <div className='text-center p-5'>
+                    <SubSubTitle text={`${currentHobby?.title}`}/>
+                </div>
+                <div key={currentHobby?.title + '-div'}
+                     className="flex flex-col lg:flex-row justify-center items-center p-5 gap-10">
+                    <Image src={`${currentHobby?.thumbnail}`} alt={`${currentHobby?.title}`} width={400} height={400}
+                           className="hobby-image max-w-full h-[200px]"/>
+                    <p className='max-w-full h-[200px] overflow-scroll'>
+                        {currentHobby?.content}
+                    </p>
+                    <div className="flex flex-row justify-center items-center lg:hidden">
+                        <div onClick={handleClickPreviousHobbyButton} >
+                            <FiChevronLeft fontSize={50}/>
+                        </div>
+                        <div onClick={handleClickNextHobbyButton} >
+                            <FiChevronRight fontSize={50}/>
+                        </div>
                     </div>
                 </div>
-                <span className="nb-hobby">
-                    { currentHobbyIdx + 1 } / { hobbies?.length }
+                <span>
+                    {currentHobbyIdx + 1} / {hobbies.length}
                 </span>
             </div>
-            <div onClick={handleClickNextHobbyButton} className="next-hobby-button">
-                <FiChevronRight fontSize={100} className="next-button"/>
+            <div onClick={handleClickNextHobbyButton} className="lg:block hidden">
+                <FiChevronRight fontSize={75}/>
             </div>
-            <div className="carousel-buttons sm:hidden">
-                <div onClick={handleClickPreviousHobbyButton} className="small-previous-button">
-                    <FiChevronLeft fontSize={50} />
-                </div>
-                <div onClick={handleClickNextHobbyButton} className="small-next-button">
-                    <FiChevronRight fontSize={50} />
-                </div>
-            </div>
-            <span className="md:hidden">
-                { currentHobbyIdx + 1 } / { hobbies?.length }
-            </span>
         </div>
     )
 

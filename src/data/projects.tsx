@@ -83,7 +83,7 @@ export const schoolProjects: Project[] = [
             'Développement d\'application web',
             'Développement d\'application web backend',
         ],
-        thumbnail: 'images/logo_IUT_Lille.svg',
+        thumbnail: 'https://iut.univ-lille.fr/fileiut/_processed_/1/c/csm_Logo-IUT-de-Lille_2022_8ab43fa962.png',
         scholarYear: 'BUT Informatique - Semestre 6',
         team: '8 personnes',
         participation: [

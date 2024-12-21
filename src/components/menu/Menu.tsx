@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link';
-import { useState } from 'react';
+import {useEffect, useState} from 'react';
 import { FiMenu } from 'react-icons/fi';
 import { VscClose } from "react-icons/vsc";
 

@@ -10,10 +10,10 @@ const formations = [
         thumbnail: 'https://upload.wikimedia.org/wikipedia/fr/7/72/2560px-Insa-hautsdefrance-logo.png'
     },
     {
-        name: 'Bachelor Universitaire de Technologie - Informatique',
-        speciality: 'Parcours Réalisation d\'applications: conception, développement, déploiement',
-        date: '2021 - En cours (fin estimée pour 2024)',
-        establishment: 'Institut Universitaire de Technologie de Lille, site de Villeneuve d\Ascq',
+        name: 'BUT - Informatique',
+        speciality: 'Parcours réalisation d\'applications',
+        date: '2021 - 2024',
+        establishment: 'Institut Universitaire de Technologie de Lille',
         city: 'Villeneuve d\'Ascq (59650)',
         department: 'Nord (59)',
         country: 'France',
@@ -21,7 +21,7 @@ const formations = [
     },
     {
         name: 'Baccalauréat - Général',
-        speciality: 'Mathématiques / Numérique et Sciences Informatiques / Physique-Chimie (1ère)',
+        speciality: 'Mathématiques / Numérique et Sciences Informatiques',
         date: '2018 - 2021',
         establishment: 'Lycée Général et Technologique Mireille Grenet',
         city: 'Compiègne (60200)',

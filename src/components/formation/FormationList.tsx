@@ -5,7 +5,6 @@ import Title from "../../components/title/Title";
 import data from "../../data/formations"
 import FormationThumbnail from "./FormationThumbnail";
 import React from "react";
-import './FormationListStyle.scss'
 
 type Formation = {
     name: string,
@@ -25,11 +24,11 @@ export default function FormationList () {
 	React.useEffect(() => setFormations(data), [])
 
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center'>
             <header>
-                <Title text="Formation" />
+                <Title text="Formation"/>
             </header>
-            <div className="formations-list">
+            <div className="max-w-[750px] flex flex-col justify-center gap-[50px] mt-[50px]">
                 {formations.map(({ name, speciality, date, establishment, city, department, country, thumbnail }) => (
                     <FormationThumbnail 
                         key={name} 

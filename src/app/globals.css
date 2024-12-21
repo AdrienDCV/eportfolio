@@ -13,6 +13,7 @@ html {
 	height: 100vh;
 	width: 100vw;
 	overflow: scroll;
+	background-color: rgba(231, 231, 231, 0.77);
 }
 
 body, main {

@@ -1,7 +1,4 @@
-import SubSubTitle from "../title/SubSubTitle";
-import SubTitle from "@/components/title/SubTitle";
-import './FormationThumbnailStyle.scss';
-import Image from "next/image";
+import Card from "@/components/card/Card";
 
 type FormationThumbnailProps = {
     name: string,
@@ -27,22 +24,14 @@ export default function FormationThumbnail ({
 }: Readonly<FormationThumbnailProps>) {
 
     return (
-        <div className="formation">
-            <div>
-                <section className="infos">
-                    <Image src={thumbnail} alt={`${establishment}-logo`} width={ 50 } height={ 50 }/>
-                    <SubTitle text={ name } />
-                    <SubSubTitle text={ speciality } />
-                    <div className="flex flex-col ">
-                        <span>{ date }</span>
-                        <span>{ establishment }</span>
-                        <span>{`${ city } - ${ department }`}</span>
-                        <span>{ country }</span>
-                    </div>
-                </section>
-            </div>
-        </div>
-
+        <Card
+            title={ name }
+            type={ speciality }
+            establishment={ establishment }
+            date={ date }
+            place={ city + " | " + department + " | " + country  }
+            image={ thumbnail }
+        />
     )
 
 }

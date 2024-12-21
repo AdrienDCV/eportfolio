@@ -3,7 +3,6 @@ import { useState, useEffect } from "react"
 import data from "../../data/career"
 import Title from "../title/Title"
 import CareerThumbnail from "./CareerThumbnail"
-import "./CareerListStyle.scss"
 
 type Career = {
     title: string,
@@ -21,23 +20,23 @@ export default function CareerList () {
     const [career, setCareer] = useState<Career[]>([])
 
     useEffect(() => setCareer(data), [])
-    
+
     return (
-        <div>
+        <div className='flex flex-col justify-center items-center'>
             <header>
-                <Title text="Expériences professionnelles" />
+                <Title text="Expériences professionnelles"/>
             </header>
-            <div className="career-list">
-                {career.map(({ title, type, society, date, duration, place, descirption, logo }) => (
+            <div className="max-w-[750px] flex flex-col justify-center gap-[50px] mt-[50px]">
+                {career.map(({title, type, society, date, duration, place, descirption, logo}) => (
                     <CareerThumbnail
-                        key={title.toLowerCase().replaceAll(' ', '-')} 
+                        key={title.toLowerCase().replaceAll(' ', '-')}
                         title={title}
                         type={type}
                         society={society}
                         date={date}
                         duration={duration}
                         place={place}
-                        descirption={descirption}
+                        description={descirption}
                         logo={logo}
                     />
                 ))}

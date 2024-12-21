@@ -1,17 +1,20 @@
 import HobbyCarousel from "@/components/presentation/HobbyCarousel";
 import Title from "@/components/title/Title";
+import SubTitle from "@/components/title/SubTitle";
+
 
 
 export default function Presentation () {
     
     return (
-        <div className="flex flex-col justify-center w-[100%]">
+        <div className="flex flex-col justify-center w-full">
             <Title text="Présentation"/>
             <div className="flex flex-col items-center justify-center mt-10">
                 <h2 className="text-gray font-bold text-2xl">Qui-suis je ?</h2>
-                <p className="whitespace-pre-line p-[10px]">
-                    { 
-                        `
+                <div className="max-w-[1050px] w-[350px] lg:w-full flex flex-col justify-center items-center bg-white rounded-lg mt-5 shadow-lg shadow-light-gray">
+                    <p className="whitespace-pre-line p-10">
+                        {
+                            `
                             Je m'appelle Adrien DA COSTA VEIGA, j'ai 21 ans et je suis originaire de l'Oise (60), en Picardie.
 
                             Je suis passionné par le monde de l'informatique depuis mes 12 ans. C'est à cet âge que j'ai obtenu mon tout premier ordinateur personnel. Au moment de la sélection des composants
@@ -24,15 +27,15 @@ export default function Presentation () {
                             A cette curiosité s'ajoute une grande rigueur, appréciant que le travail soit fait et ce correctement. Une rigueur que je m'efforce d'appliquer également dans 
                             ma façon de programmer, cherchant à toujours convenir le plus possible aux conventions ainsi qu'à toujours chercher à optimiser l'écriture du code que je produis.  
                             Je suis quelqu'un de persévérant, qui n'a pas peur de se remettre en question et qui cherche à s'améliorer en permanence.
-
-                            En dehors de l'informatique, j'éprouve un fort intérêt pour de nombreux autres domaines biens différents.
-
-                            Voici mes passions les plus importantes :
                         `
-                    }
-                </p>
-                <div className="mt-[50px]">
-                    <HobbyCarousel />
+                        }
+                    </p>
+                </div>
+                <div className="mt-[50px] flex flex-col items-center">
+                    <SubTitle text="Autres passions :" />
+                    <div className='mt-5'>
+                        <HobbyCarousel/>
+                    </div>
                 </div>
             </div>
         </div>
