@@ -6,7 +6,7 @@ const career = [
         date: 'septembre 2024 - septembre 2027',
         duration: '3 ans',
         place: 'Lille, Nord (59) - France',
-        descirption: 'Développement, déploiement et maintenance d\'applications web et mobile\n Pilotage de la migration d\'architecture applicative d\'une application monolithique vers une architecture monolithique modulaire (DDD/Hexagonale)',
+        descirption: 'Développement, déploiement et maintenance d\'applications web et mobile\n Pilotage de la migration d\'architecture applicative d\'une application monolithique n-tiers vers une architecture monolithique modulaire (DDD/Hexagonale)',
         logo: 'https://www.jetdev.fr/wp-content/uploads/2023/07/Logo_carre.png'
     },
     {
