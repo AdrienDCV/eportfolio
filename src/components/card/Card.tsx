@@ -24,16 +24,15 @@ export default function Card ({
     return (
         <div className="flex lg:flex-row flex-col lg:w-full w-[300px] justify-start items-center bg-white border-none rounded-lg gap-[50px] p-5 shadow-lg shadow-light-gray">
         <div>
-                <img src={image} alt={`${establishment.replaceAll(' ', '-').toLocaleLowerCase()}-img`} width={100}
-                     height={100}/>
+                <img src={image} alt={`${establishment.replaceAll(' ', '-').toLocaleLowerCase()}-img`} width={100}/>
             </div>
             <div className="w-100 flex flex-col w-100">
                 <SubTitle text={title}/>
                 <SubTitle text={type}/>
-                <SubTitle text={establishment}/>
+                <SubSubTitle text={establishment}/>
                 <span> {date} </span>
                 <span> {place} </span>
-                {description ? <span>{description}</span> : null}
+                {description ? <p className='whitespace-pre-line'>{description}</p> : null}
             </div>
         </div>
     )

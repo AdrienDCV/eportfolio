@@ -5,8 +5,8 @@ const career = [
         society: 'Jetdev',
         date: 'septembre 2024 - septembre 2027',
         duration: '3 ans',
-        place: 'Lille, Nord (59), France',
-        descirption: 'Développement, déploiement et maintenance d\'applications web et mobile',
+        place: 'Lille, Nord (59) - France',
+        descirption: 'Développement, déploiement et maintenance d\'applications web et mobile\n Migration architecture applicative monolithique vers DDD/Hexagonale',
         logo: 'https://www.jetdev.fr/wp-content/uploads/2023/07/Logo_carre.png'
     },
     {
@@ -15,7 +15,7 @@ const career = [
         society: 'Toyota Motor Manufacturing France',
         date: 'septembre 2023 - août 2024',
         duration: '1 an',
-        place: 'Onnaing, Nord (59), France',
+        place: 'Onnaing, Nord (59) - France',
         descirption: 'Développement, déploiement et maintenance d\'applications web en support à la production',
         logo: 'https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1052284/logo.png?1510043350'
     },
@@ -25,7 +25,7 @@ const career = [
         society: 'Toyota Motor Manufacturing France',
         date: 'avril 2023 - juin 2023',
         duration: '10 semaines',
-        place: 'Onnaing, Nord (59), France',
+        place: 'Onnaing, Nord (59) - France',
         descirption: 'Développement, déploiement et maintenance d\'applications web en support à la production',
         logo: 'https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1052284/logo.png?1510043350'
     }
