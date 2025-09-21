@@ -1,32 +1,32 @@
 const career = [
     {
-        title: 'Développeur full stack / Mobile',
-        type: 'Alternance',
+        title: 'Full-stack & mobile developer',
+        type: 'Apprenticeship',
         society: 'Jetdev',
-        date: 'septembre 2024 - septembre 2027',
-        duration: '3 ans',
+        date: 'September 2024 - September 2027',
+        duration: '3 years',
         place: 'Lille, Nord (59) - France',
-        descirption: 'Développement, déploiement et maintenance d\'applications web et mobile\n Pilotage de la migration d\'architecture applicative d\'une application monolithique n-tiers vers une architecture monolithique modulaire (DDD/Hexagonale)',
+        descirption: 'Development, deployment and maintenance of web & mobile applications\n Managing the migration of application architecture from a monolithic n-tier application to a modular monolithic architecture (DDD / Hexagonal)',
         logo: 'https://www.jetdev.fr/wp-content/uploads/2023/07/Logo_carre.png'
     },
     {
-        title: 'Développeur full stack Java / JS',
-        type: 'Alternance',
+        title: 'Full-stack Java / JS developer',
+        type: 'Apprenticeship',
         society: 'Toyota Motor Manufacturing France',
-        date: 'septembre 2023 - août 2024',
-        duration: '1 an',
+        date: 'September 2023 - August 2024',
+        duration: '1 year',
         place: 'Onnaing, Nord (59) - France',
-        descirption: 'Développement, déploiement et maintenance d\'applications web en support à la production',
+        descirption: 'Development, deployment and maintenance of web applications to support production',
         logo: 'https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1052284/logo.png?1510043350'
     },
     {
-        title: 'Développeur full stack Java / JS',
-        type: 'Stage',
+        title: 'Full-stack Java / JS developer',
+        type: 'Internship',
         society: 'Toyota Motor Manufacturing France',
         date: 'avril 2023 - juin 2023',
-        duration: '10 semaines',
+        duration: '10 weeks',
         place: 'Onnaing, Nord (59) - France',
-        descirption: 'Développement, déploiement et maintenance d\'applications web en support à la production',
+        descirption: 'Development, deployment and maintenance of web applications to support production',
         logo: 'https://d1guu6n8gz71j.cloudfront.net/system/asset/logos/1052284/logo.png?1510043350'
     }
 ]

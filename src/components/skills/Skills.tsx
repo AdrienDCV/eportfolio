@@ -16,7 +16,7 @@ export default function SkillList () {
     return (
         <div className="flex flex-col justify-center items-center">
 
-            <Title text="Compétences"/>
+            <Title text="Skills"/>
 
             <div className='max-w-[1200px] w-[350px] lg:w-full flex flex-col lg:flex-row justify-center items-center'>
                 <div className="w-full flex flex-col items-center justify-center mt-10">
@@ -51,7 +51,7 @@ export default function SkillList () {
             </div>
 
             <div className="max-w-[700px] w-full flex flex-col items-center justify-center mt-10">
-                <SubTitle text="Langues"/>
+                <SubTitle text="Languages"/>
                 <div
                     className="lg:w-full flex flex-row flex-wrap justify-center items-center mt-5 gap-5 p-5">
                     {languages?.map(({language, level, image}) => (

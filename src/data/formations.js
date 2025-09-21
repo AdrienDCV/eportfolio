@@ -1,8 +1,8 @@
 const formations = [
     {
-        name: 'Cursus Ingénieur',
-        speciality: 'Spécialité Informatique - Apprentissage',
-        date: '2024 - fin estimée pour 2027',
+        name: 'Cursus Ingénieur (Master\'s degree in engineering)',
+        speciality: 'Computer Science & Cybersecurity - Apprenticeship',
+        date: '2024 - estimated completion in 2027',
         establishment: 'INSA Hauts-de-France',
         city: 'Valenciennes (59313)',
         department: 'Nord (59)',
@@ -10,8 +10,8 @@ const formations = [
         thumbnail: 'https://upload.wikimedia.org/wikipedia/fr/7/72/2560px-Insa-hautsdefrance-logo.png'
     },
     {
-        name: 'BUT - Informatique',
-        speciality: 'Parcours réalisation d\'applications',
+        name: 'Bachelor Universitaire de Technologie (Bachelor\'s degree)',
+        speciality: 'Computer Science specialising in design, development and validation',
         date: '2021 - 2024',
         establishment: 'Institut Universitaire de Technologie de Lille',
         city: 'Villeneuve d\'Ascq (59650)',
@@ -20,10 +20,10 @@ const formations = [
         thumbnail: 'https://iut.univ-lille.fr/fileiut/_processed_/1/c/csm_Logo-IUT-de-Lille_2022_8ab43fa962.png'
     },
     {
-        name: 'Baccalauréat - Général',
-        speciality: 'Mathématiques / Numérique et Sciences Informatiques',
+        name: 'Baccalauréat(A-levels)',
+        speciality: 'General series specializing in Mathematics & Computer Science',
         date: '2018 - 2021',
-        establishment: 'Lycée Général et Technologique Mireille Grenet',
+        establishment: 'General and Technological High School Mireille Grenet',
         city: 'Compiègne (60200)',
         department: 'Oise (60)',
         country: 'France',

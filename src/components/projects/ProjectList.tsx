@@ -29,10 +29,12 @@ export default function ProjectList () {
 	useEffect(() => setPersonnalProjects(personnalProjects), []);
 
 	return (
-		<div className="projects">
-			<Title text="Réalisations" />
+		<div className="flex flex-col justify-center items-center">
+			<header>
+				<Title text="Projects" />
+			</header>
 			<div className="projects-list-container">
-				<SubTitle text="Projets scolaires"/>
+				<SubTitle text="School projects"/>
 				<div className="projects-list mt-7">
 					{schoolProjectsList?.map(({ slug, title, thumbnail, scholarYear, technosTools, skills }) => (
 						<div key={`scholar-project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
@@ -47,7 +49,7 @@ export default function ProjectList () {
 				</div>
 			</div>
 			<div className="projects-list-container">
-				<SubTitle text="Projets peronnels"/>
+				<SubTitle text="Personal projects"/>
 				<div className="projects-list mt-7">
 					{personnalProjectsList?.map(({slug, title, thumbnail, technosTools}) => (
 						<div key={`project-${title.toLowerCase().replaceAll(' ', '-')}`} className="project">
