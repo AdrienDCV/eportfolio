@@ -19,7 +19,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         <header>
             <Menu />
         </header>
-        <main>
+        <main className="w-full h-full bg-primary">
           { children }
         </main>
         <footer>

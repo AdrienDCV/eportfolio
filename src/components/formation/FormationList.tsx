@@ -26,7 +26,7 @@ export default function FormationList () {
     return (
         <div className='flex flex-col justify-center items-center'>
             <header>
-                <Title text="Formation"/>
+                <Title text="Academic background"/>
             </header>
             <div className="max-w-[750px] flex flex-col justify-center gap-[50px] mt-[50px]">
                 {formations.map(({ name, speciality, date, establishment, city, department, country, thumbnail }) => (

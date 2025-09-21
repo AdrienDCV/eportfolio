@@ -1,43 +1,36 @@
 const hobbies = [
     {
-        title: 'Sport automobile',
+        title: 'Motorsport',
         thumbnail: 'https://f1only.fr/wp-content/uploads/2023/05/SI202305280235-1-scaled.jpg',
-        content: `Depuis maintenant quelques années, je suis épris d'une forte passion pour le monde du sport automobile.
-        Cela a commencé en écoutant un ami qui parlait de Formule 1. Pris d'un élan de curiosité, je suis allé regarder
-        quelques vidéos sur ce sport qui, bien qu'en ayant déjà entendu parlé et regardé lorsque j'étais plus petit, ne
-        m'avait pourtant jamais vraiment intéressé. Je regarde donc une, puis deux, puis trois vidéos et je me retrouve
-        finalement à rapidement avoir parcouru l'histoire de la catégorie reine du sport automobile. De Fangio à Verstappen,
-        je suis tombé amoureux de ce domaine. J'ai donc commencé à suivre assidûment la Formule 1, puis je me suis rapidement ouvert à 
-        d'autres disciplines comme l'endurance (World Endurance Championship), la Formule 2 ou même le Rallye (World Rally Championship) 
-        où je supporte respectivement Alpine, Art Grand Prix et Toyota GAZOO Racing en WEC et WRC.
-        Au-delà des moteurs qui font du bruit, l'aérodynamisme, l'ingénierie mécanique et
-        le contexte de recherche permanente d'innovation qui me passionne et fascine dans ce domaine.`
+        content: `For several years now, I have been passionate about the world of motor racing.
+        It all started when I heard a friend talking about Formula 1. Intrigued, I watched a few videos about the sport which, 
+        although I had heard about it and watched it when I was younger, had never really interested me. So I watched one, 
+        then two, then three videos, and before I knew it, I had quickly gone through the history of the premier class of motor racing. 
+        From Fangio to Verstappen, I fell in love with the sport. I started following Formula 1 assiduously, then quickly opened up to other 
+        disciplines such as endurance racing (World Endurance Championship), Formula 2 and even rallying (World Rally Championship), where I support 
+        Haas F1 Team, Art Grand Prix and Toyota GAZOO Racing in WEC and WRC respectively.
+        Beyond the roaring engines, it's the aerodynamics, mechanical engineering and constant pursuit of innovation that fascinate and excite me about this field.`
     },
     {
-        title: 'Histoire et culture du monde',
+        title: 'World History and Culture',
         thumbnail: 'https://medias.histoire-et-civilisations.com/api/v1/images/view/61aa6f4e3e45463e1547fcf7/width_1000/image.jpg',
-        content: ` L'Histoire, de la France et du monde, a toujours joué un rôle prépondérant dans ma vie, depuis ma plus tendre enfance, 
-        jusqu'à aujourd'hui et pour bien des années encore. Plus le temps avance, plus nous en apprenons sur notre passé. Savoir et 
-        comprendre le mode de vie de nos prédécesseurs m'a toujours fasciné, je ne peux m'empêcher d'imaginer l'ambiance 
-        qui régnait à telle ou telle époque, les difficultés par lesquelles les Poilus de 14-18 sont passés, 
-        la surprise générale de l'ancien monde lorsque Christophe Colomb fit connaître l'Amérique 
-        (et non découvrir ! Les Vikings ont déjà foulé le sol américain bien avant les Conquistadors), 
-        la construction des pyramides, les premières civilisations humaines, les premiers pas de l'homme 
-        sur deux jambes et d'innombrable autres événements qui ont et continuent d'enrichir un des plus grands 
-        joyaux de l'humanité. Connaître son passé, ses merveilles mais également ses fautes permettent de mieux envisager 
-        son futur. Connaître l'Histoire, c'est aussi savoir que des erreurs ont été commises par le passé. 
-        Il est primordial de reconnaître l'existence de ces erreurs, afin d'en tirer des leçons pour qu'elles ne puissent se reproduire.`,
+        content: `History, both French and world history, has always played a major role in my life, from my earliest childhood to the present day 
+        and for many years to come. The more time passes, the more we learn about our past. Knowing and understanding the way of our predecessors were 
+        living has always fascinated me. I cannot help but imagine the atmosphere that prevailed at a particular time, the difficulties endured by 
+        the soldiers of 1914-18, the general surprise of the old world when Christopher Columbus discovered America (In fact, he did not discover the 
+        continent ! The Vikings had already set foot on American soil long before the Conquistadors), the construction of the pyramids, the first human 
+        civilisations, man's first steps on two legs and countless other events that have enriched and continue to enrich one of humanity's greatest 
+        treasures. Knowing our past, its wonders but also its mistakes, allows us to better envisage our future. Knowing history also means knowing that 
+        mistakes have been made in the past. It is essential to recognise the existence of these mistakes in order to learn from them so that they cannot 
+        be repeated.`,
     },
     {
-        title: 'Aéronautique et aérospatiale',
+        title: 'Aeronautics and aerospace',
         thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Airbus_A380_blue_sky.jpg',
-        content: `Comme beaucoup de mes centres d'intérêts, c'est dans mon enfance (et presque depuis ma naissance) que je suis épris 
-        d'un fort intérêt pour l'aéronautique et l'aérospatiale. Il s'agit d'une passion que je partage avec mon père 
-        (on pourrait dire que j'en ai certainement hérité), lui aussi grand amateur d'aviation. Je me souviens encore 
-        du petit Adrien en maternelle clamer haut et fort qu'il allait "travailler dans les tours de contrôle" 
-        (à l'époque je ne savais pas que le nom exact était "Aiguilleur du ciel"). En ce qui concerne l'aérospatiale, 
-        j'ai toujours été intrigué par les mystères que renferme l'univers dans lequel notre toute petite planète 
-        flotte élégamment.`
+        content: `Like many of my interests, it was during my childhood (and almost from birth) that I developed a strong interest in aeronautics and aerospace. 
+        It is a passion I share with my father (you could say I inherited it), who is also a great aviation enthusiast. I still remember little Adrien in nursery 
+        school proclaiming loudly that he was going to ‘work in the control towers’ (at the time, I didn't know that the correct term was ‘air traffic controller’). 
+        As for aerospace, I have always been intrigued by the mysteries of the universe in which our tiny planet floats elegantly.`
     }
 ]
 export default hobbies

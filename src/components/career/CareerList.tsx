@@ -24,7 +24,7 @@ export default function CareerList () {
     return (
         <div className='flex flex-col justify-center items-center'>
             <header>
-                <Title text="Expériences professionnelles"/>
+                <Title text="Professional experience"/>
             </header>
             <div className="max-w-[750px] flex flex-col justify-center gap-[50px] mt-[50px]">
                 {career.map(({title, type, society, date, duration, place, descirption, logo}) => (

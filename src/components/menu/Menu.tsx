@@ -10,12 +10,12 @@ export default function Menu() {
     const [open, setOpen] = useState(false)
 
     const links = [
-        { id: 'home', pageName: 'Accueil', url: '/' },
-        { id: 'presentation', pageName: 'Présentation', url: '/presentation' },
-        { id: 'formation', pageName: 'Formation', url: '/formation' },
-        { id: 'career', pageName: 'Carrière', url: '/career' },
-        { id: 'skills', pageName: 'Compétences', url: '/skills' },
-        { id: 'projects', pageName: 'Réalisations', url: '/projects' },
+        { id: 'home', pageName: 'Home', url: '/' },
+        { id: 'presentation', pageName: 'Presentation', url: '/presentation' },
+        { id: 'formation', pageName: 'Training', url: '/formation' },
+        { id: 'career', pageName: 'Career', url: '/career' },
+        { id: 'skills', pageName: 'Skills', url: '/skills' },
+        { id: 'projects', pageName: 'Projects', url: '/projects' },
         { id: 'contact', pageName: 'Contact', url: '/contact' }
     ]
 

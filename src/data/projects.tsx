@@ -19,16 +19,16 @@ export const schoolProjects: Project[] = [
         title: 'ePortfolio',
         slug: 'eportfolio',
         tags: [
-            'Développement d\'application',
-            'Développement d\'application web frontend',
+            'Application development',
+            'Frontend development',
         ],
         thumbnail: 'images/eportfolio.png',
-        scholarYear: 'BUT Informatique - Semestre 6',
-        team: '1 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Iformatique - Semester 6',
+        team: '1 person',
         participation: [
-            'Développement de l\'application',
-            'Élaboration de la charte graphique',
-            'Design de l\'interface utilisateur',
+            'Application development',
+            'Development of the graphic charter',
+            'UI design',
         ],
         technosTools: [
             {
@@ -69,26 +69,26 @@ export const schoolProjects: Project[] = [
             },
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Analyse du besoin client',
-            'Gestion de versions (Git)',
-            'Gestion de projet',
+            'Application development',
+            'Customer requirement analysis',
+            'Version control (Git)',
+            'Project management',
         ]
     },
     {
-        title: 'Gestion d\'e-mangathèque',
-        slug: 'application-web-e-commerce',
+        title: 'E-library management',
+        slug: 'e-commerce web application',
         tags: [
-            'Développement d\'application',
-            'Développement d\'application web',
-            'Développement d\'application web backend',
+            'Application development',
+            'Web application development',
+            'Backend development',
         ],
         thumbnail: 'https://iut.univ-lille.fr/fileiut/_processed_/1/c/csm_Logo-IUT-de-Lille_2022_8ab43fa962.png',
-        scholarYear: 'BUT Informatique - Semestre 6',
-        team: '8 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 6',
+        team: '8 persons',
         participation: [
-            'Développement de l\'API web',
-            'Gestion de l\'équipe de développement backend',
+            'Development of the backend',
+            'Management of the backend development team',
         ],
         technosTools: [
             {
@@ -121,29 +121,29 @@ export const schoolProjects: Project[] = [
             },
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Analyse du besoin client',
-            'Programmation Orientée Objet',
-            'Capacité à diriger une équipe',
-            'Adapatabilité',
-            'Gestion de versions (Git)',
+            'Application development',
+            'Customer needs analysis',
+            'Object-oriented programming',
+            'Team leadership skills',
+            'Adaptability',
+            'Version control (Git)',
             'Clean code',
-            'Agilité',
+            'Agility',
             'Scrum',
-            'Gestion de projet',
-            'Travail en équipe'
+            'Project management',
+            'Teamwork'
         ]
     },
     {
-        title: 'Algorithme de déchiffrement de la Machine Enigma',
+        title: 'Enigma Machine Decryption Algorithm',
         slug: 'enigma',
         tags: [
-            'Développement d\'application'
+            'Application development'
         ],
         thumbnail: 'images/enigma.png',
-        scholarYear: 'BUT Informatique - Semestre 1',
-        team: '2 personnes',
-        participation: ['Implémentation des méthodes nécessaires au déchiffrement'],
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 1',
+        team: '2 persons',
+        participation: ['Implementation of the methods required for decryption'],
         technosTools: [
             {
                 name: 'Java',
@@ -151,21 +151,21 @@ export const schoolProjects: Project[] = [
             }
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Algorithmie',
-            'Travail en équipe'
+            'Application development',
+            'Algorithms',
+            'Teamwork'
         ]
     },
     {
-        title: 'Logiciel ludo-pédagogique : Success Key',
+        title: 'Educational game software: Success Key',
         slug: 'success-key',
         tags: [
-            'Développement d\'application'
+            'Application development'
         ],
         thumbnail: 'images/successkey.png',
-        scholarYear: 'BUT Informatique - Semestre 1',
-        team: '2 personnes',
-        participation: ['Développement du logiciel'],
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 1',
+        team: '2 presons',
+        participation: ['Program development'],
         technosTools: [
             {
                 name: 'Java',
@@ -173,26 +173,27 @@ export const schoolProjects: Project[] = [
             }
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Optimiser des applications informatiques',
+            'Developing applications',
+            'Optimising computer applications',
             'Clean code',
-            'Algorithmie',
-            'Travail en équipe',
-            'Capacité à diriger une équipe'
+            'Algorithms',
+            'Teamwork',
+            'Ability to lead a team'
         ]
     },
     {
-        title: 'Application de classification (Algorithme kNN)',
+        title: 'Classification application (kNN algorithm)',
         slug: 'classification',
         tags: [
-            'Développement d\'application'
+            'Application development'
         ],
         thumbnail: 'images/classification.png',
-        scholarYear: 'BUT Informatique - Semestre 3',
-        team: '4 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 3',
+        team: '4 persons',
         participation: [
-            'Analyse du besoin client (Structure de l\'application)',
-            'Développement de l\'application'
+            'Analysis of customer needs (application structure)',
+            'Application development',
+            'Development team management'
         ],
         technosTools: [
             {
@@ -207,30 +208,30 @@ export const schoolProjects: Project[] = [
             }
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Optimiser des applications informatiques',
-            'Analyse du besoin client',
-            'Programmation Orientée Objet',
+            'Application development',
+            'Optimising computer applications',
+            'Analysing customer needs',
+            'Object-oriented programming',
             'Clean Code',
-            'Gestion de versions (Git)',
-            'Travail d\'équipe',
-            'Gestion de projet',
-            'Capacité à diriger une équipe',
-            'Communication avec les membres de l\'équipe'
+            'Version control (Git)',
+            'Teamwork',
+            'Project management',
+            'Team leadership skills',
+            'Communication with team members'
         ]
     },
     {
-        title: 'Application d\'affectation tuteur/toturé',
+        title: 'Tutor/tortured assignment application',
         slug: 'affectation-tutoring',
         tags: [
-            'Développement d\'application'
+            'Application development'
         ],
         thumbnail: 'images/affectationtutorat.png',
-        scholarYear: 'BUT Informatique - Semestre 2',
-        team: '2 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 2',
+        team: '2 persons',
         participation: [
-            'Implémentation du système d\'attribution des poids aux noeuds (étudiants)',
-            'Développement de l\'application'
+            'Implementation of the system for assigning weights to nodes (students)',
+            'Application development'
         ],
         technosTools: [
             {
@@ -245,29 +246,29 @@ export const schoolProjects: Project[] = [
             }
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Optimiser des applications informatiques',
-            'Programmation Orientée Objet',
-            'Gestion de versions (Git)',
+            'Application development',
+            'Computer application optimisation',
+            'Object-oriented programming',
+            'Version control (Git)',
             'Clean code',
-            'Travail d\'équipe',
-            'Gestion de projet'
+            'Teamwork',
+            'Project management'
         ]
     },
     {
-        title: 'Site web vitrine pour la startup IlluStrat',
+        title: 'Showcase website for the fictional start-up IlluStart',
         slug: 'illustart',
         tags: [
-            'Développement d\'application',
-            'Dévelopement web'
+            'Application development',
+            'Web application development'
         ],
         thumbnail: 'images/illustart.png',
-        scholarYear: 'BUT Informatique - Semestre 1',
-        team: '2 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 1',
+        team: '2 persons',
         participation: [
-            'Réalisations d\'illustrations',
-            'Développement de l\'interface',
-            'Sélection de la charte graphique'
+            'Illustration production',
+            'Interface development',
+            'Graphic charter definition'
         ],
         technosTools: [
             {
@@ -284,23 +285,23 @@ export const schoolProjects: Project[] = [
             }
         ],
         skills: [
-            'Développement web',
-            'Communication visuelle',
-            'Réalisation graphiques',
-            'Travail en équipe'
+            'Web development',
+            'Visual communication',
+            'Graphic design',
+            'Teamwork'
         ]
     },
     {
-        title: 'Mise en place d\'une environnement de développement sous Kubuntu',
+        title: 'Setting up a development environment under Kubuntu',
         slug: 'vm-kubuntu',
         tags: [
-            'Système'
+            'System'
         ],
         thumbnail: 'images/kubuntu.png',
-        scholarYear: 'BUT Informatique - Semestre 1',
-        team: '2 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 1',
+        team: '2 persons',
         participation: [
-            'Installation et configuration de la machine virtuelle Kubuntu'
+            'Installing and configuring the Kubuntu virtual machine'
         ],
         technosTools: [
             {
@@ -311,28 +312,28 @@ export const schoolProjects: Project[] = [
             },
         ],
         skills: [
-            'Administrer des systèmes informatiques communicants',
-            'Configuration d\'un système d\'exploitation',
-            'Configuration d\'applications'
+            'Administering communicating computer systems',
+            'Configuring an operating system',
+            'Configuring applications'
         ]
     },
     {
-        title: 'Exploitation d\'une Base de données',
+        title: 'Database operation',
         slug: 'parcoursup-db-analysis',
         tags: [
-            'Base de données',
-            'Gestion de données',
-            'Exploitation de données',
-            'Analyse de données',
-            'Etude statistique'
+            'Database',
+            'Data management',
+            'Data exploitation',
+            'Data analysis',
+            'Statistical study'
         ],
         thumbnail: 'images/parcoursupbdd.png',
-        scholarYear: 'BUT Informatique - Semestre 2',
-        team: '2 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 2',
+        team: '2 persons',
         participation: [
-            'Analyse du besoin client',
-            'Réalisation du MCD & MLD',
-            'Création de la BDD sous Microsoft Access'
+            'Analysis of customer needs',
+            'Creation of MCD & MLD',
+            'Creation of database using Microsoft Access'
         ],
         technosTools: [
             {
@@ -343,31 +344,31 @@ export const schoolProjects: Project[] = [
             },
         ],
         skills: [
-            'Analyse du besoin client pour la mise en place d\'un Système d\'informations',
-            'Création d\'une base de données',
-            'Utilisation d\'une base de données pour réaliser des analyses statistiques',
-            'Gérer des données de l\'information',
-            'Premiers pas avec le logiciel Microsoft Access',
-            'Capacité à diriger une équipe',
-            'Adapatabilité',
-            'Rigueur',
-            'Travail en équipe'
+            'Analysis of customer needs for the implementation of an information system',
+            'Creation of a database',
+            'Use of a database to perform statistical analyses',
+            'Management of information data',
+            'Getting started with Microsoft Access software',
+            'Ability to lead a team',
+            'Adaptability',
+            'Rigour',
+            'Teamwork'
         ]
     },
     {
         title: 'Agar.io',
         slug: 'agario',
         tags: [
-            'Développement d\'application',
-            'Développement d\'application web'
+            'Application development',
+            'Web application development'
         ],
         thumbnail: 'images/agario.png',
-        scholarYear: 'BUT Informatique - Semestre 4',
-        team: '2 personnes',
+        scholarYear: 'Bachelor Universitaire de Technologie Informatique - Semester 4',
+        team: '2 persons',
         participation: [
-            'Analyse du besoin client clients',
-            'Développement de l\'application',
-            'Mise en place de l\'architecture client-serveur'
+            'Analysis of customer requirements',
+            'Application development',
+            'Implementation of client-server architecture'
         ],
         technosTools: [
             {
@@ -408,17 +409,17 @@ export const schoolProjects: Project[] = [
             }
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Optimiser des applications informatiques',
-            'Analyse du besoin client',
-            'Programmation Orientée Objet',
-            'Gestion des communications client-serveur',
-            'Capacité à diriger une équipe',
-            'Adapatabilité',
-            'Gestion de versions (Git)',
-            'Travail d\'équipe',
-            'Gestion de projet',
-            'Travail en équipe'
+            'Application development',
+            'Computer application optimisation',
+            'Customer needs analysis',
+            'Object-oriented programming',
+            'Client-server communications management',
+            'Team leadership skills',
+            'Adaptability',
+            'Version management (Git)',
+            'Teamwork',
+            'Project management',
+            'Teamwork'
         ]
     },
    
@@ -429,10 +430,10 @@ export const personnalProjects: Project[] = [
         title: 'Le Paddock - Fantasy League & Pronostics',
         slug: 'lepaddock',
         tags: [
-            'Développement d\'application web',
-            'Développement d\'application d\'API web',
-            'Développement web backend',
-            'Gestion de données',
+            'Software architecture design',
+            'Web application development',
+            'Web API application development',
+            'Backend web development',
         ],
         thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/3/33/F1.svg',
         technosTools: [
@@ -478,17 +479,17 @@ export const personnalProjects: Project[] = [
             }
         ],
         skills: [
-            'Réaliser un développement d\'application',
-            'Analyse du besoin client',
-            'Programmation Orientée Objet',
-            'Capacité à diriger une équipe',
-            'Adapatabilité',
-            'Gestion de versions (Git)',
+            'Application development',
+            'Customer needs analysis',
+            'Object-oriented programming',
+            'Team leadership skills',
+            'Adaptability',
+            'Version control (Git)',
             'Clean code',
-            'Agilité',
+            'Agility',
             'Scrum',
-            'Gestion de projet',
-            'Travail en équipe'
+            'Project management',
+            'Teamwork'
         ],
         scholarYear: "",
         team: "",
