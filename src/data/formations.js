@@ -13,7 +13,7 @@ const formations = [
         name: 'Bachelor Universitaire de Technologie (Bachelor\'s degree)',
         speciality: 'Computer Science specialising in design, development and validation',
         date: '2021 - 2024',
-        establishment: 'Institut Universitaire de Technologie de Lille',
+        establishment: 'University Institute of Technology of Lille',
         city: 'Villeneuve d\'Ascq (59650)',
         department: 'Nord (59)',
         country: 'France',
