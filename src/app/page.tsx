@@ -22,7 +22,7 @@ export default function page () {
 
                     With this goal in mind, I embarked on a computer science education path very early on, starting in high school and more specifically by pursuing a Bachelor's degree in Computer Science with a focus on application development: design, development and validation at the IUT de Lille, which I completed in my final year as an apprentice.
 
-                    With the ambition of becoming a software architect, I decided to continue my studies at the INSA Hauts-de-France engineering school, where I am currently in my fourth year of the Computer Science and cybersecurity engineering programme as an apprentice (FISA ICy).
+                    With the ambition of becoming a software architect, I decided to continue my studies at the INSA Hauts-de-France engineering school, where I am currently in my second year of the Computer Science and cybersecurity engineering programme (Master's degree in engineering) as an apprentice (FISA ICy).
                     I am therefore completing this engineering apprenticeship at Jetdev, where I work as a full-stack & mobile developer.
 
                     On this website, you will find further information about my profile, my interests, my academic and professional background, and my technical and interpersonal skills, including examples of projects I have completed as part of my studies or in my spare time.
